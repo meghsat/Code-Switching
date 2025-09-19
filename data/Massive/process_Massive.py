@@ -44,7 +44,7 @@ def process_parse(cs_parse, cs_query):
             if phrase:
                 underscored = phrase.replace(' ', '_')
                 replacements.append((phrase, underscored))
-                labels.append(slot_name)
+                labels.append(f"B-{slot_name}")
             
             pos = close_pos + 1
         else:
