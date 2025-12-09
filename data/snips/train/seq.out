@@ -1,13 +1,13 @@
-B-artist B-album O B-service O O
-B-playlist O O B-entity_name O O
-O O B-object_select B-object_type O B-rating_value O O O B-best_rating O
-B-track O O
-O B-artist O B-playlist_owner B-playlist O O O
-B-artist O B-playlist_owner B-playlist O O O
-O B-year O O O
-B-artist O O B-sort B-music_item O
-B-movie_name O
-B-state O B-party_size_number O O O O O
+B-ARTIST B-ALBUM O B-SERVICE O O
+B-PLAYLIST O O B-ENTITY_NAME O O
+O O B-OBJECT_SELECT B-OBJECT_TYPE O B-RATING_VALUE O O O B-BEST_RATING O
+B-TRACK O O
+O B-ARTIST O B-PLAYLIST_OWNER B-PLAYLIST O O O
+B-ARTIST O B-PLAYLIST_OWNER B-PLAYLIST O O O
+O B-YEAR O O O
+B-ARTIST O O B-SORT B-MUSIC_ITEM O
+B-MOVIE_NAME O
+B-STATE O B-PARTY_SIZE_NUMBER O O O O O
 O B-CITY B-STATE O B-DATE_TIME O O O
 O B-OBJECT_SELECT O B-RATING_VALUE O O
 O B-SPATIAL_RELATION O B-MOVIE_TYPE O B-OBJECT_TYPE O O O
@@ -18,16 +18,16 @@ O B-CITY B-STATE O B-PARTY_SIZE_DESCRIPTION O B-RESTAURANT_TYPE O O O
 B-PLAYLIST O B-ENTITY_NAME O O
 B-STATE O B-DATE_TIME O B-RESTAURANT_TYPE O O
 B-PLAYLIST O O O O B-MUSIC_ITEM O O
-B-movie_name O O B-object_location_type O
-B-entity_name O B-playlist_owner B-playlist O O O
-B-object_name O B-object_type O
-B-object_name O
-B-music_item O B-playlist_owner B-playlist O O O O
-B-spatial_relation B-object_location_type O B-movie_type O
-B-object_name B-object_type O
-O B-object_select O B-rating_value B-rating_unit O
-B-movie_type O B-spatial_relation O O
-B-object_type O
+B-MOVIE_NAME O O B-OBJECT_LOCATION_TYPE O
+B-ENTITY_NAME O B-PLAYLIST_OWNER B-PLAYLIST O O O
+B-OBJECT_NAME O B-OBJECT_TYPE O
+B-OBJECT_NAME O
+B-MUSIC_ITEM O B-PLAYLIST_OWNER B-PLAYLIST O O O O
+B-SPATIAL_RELATION B-OBJECT_LOCATION_TYPE O B-MOVIE_TYPE O
+B-OBJECT_NAME B-OBJECT_TYPE O
+O B-OBJECT_SELECT O B-RATING_VALUE B-RATING_UNIT O
+B-MOVIE_TYPE O B-SPATIAL_RELATION O O
+B-OBJECT_TYPE O
 O O B-SORT B-ARTIST O O
 O O B-OBJECT_SELECT B-OBJECT_TYPE O B-RATING_VALUE B-RATING_UNIT O O O
 O B-PLAYLIST O O B-ENTITY_NAME O O
@@ -38,16 +38,16 @@ O B-CURRENT_LOCATION O B-DATE_TIME O O O O
 B-PLAYLIST O O
 B-PLAYLIST_OWNER O B-PLAYLIST O O O B-MUSIC_ITEM O O O
 B-OBJECT_NAME O O O B-OBJECT_TYPE O
-B-object_name O O B-object_type O
-B-state O B-spatial_relation B-served_dish O O O B-restaurant_type O O
-B-movie_name O B-object_type O
-B-artist O B-music_item O
-B-city O B-country O O O O
-B-music_item B-playlist_owner B-playlist O O
-O B-state O B-condition_temperature O
-O B-object_select O B-rating_value O
-B-spatial_relation B-movie_type O
-B-movie_name O B-object_location_type B-object_type O O
+B-OBJECT_NAME O O B-OBJECT_TYPE O
+B-STATE O B-SPATIAL_RELATION B-SERVED_DISH O O O B-RESTAURANT_TYPE O O
+B-MOVIE_NAME O B-OBJECT_TYPE O
+B-ARTIST O B-MUSIC_ITEM O
+B-CITY O B-COUNTRY O O O O
+B-MUSIC_ITEM B-PLAYLIST_OWNER B-PLAYLIST O O
+O B-STATE O B-CONDITION_TEMPERATURE O
+O B-OBJECT_SELECT O B-RATING_VALUE O
+B-SPATIAL_RELATION B-MOVIE_TYPE O
+B-MOVIE_NAME O B-OBJECT_LOCATION_TYPE B-OBJECT_TYPE O O
 O B-RESTAURANT_TYPE B-PARTY_SIZE_NUMBER O O O O
 B-ARTIST O B-TRACK O
 O O B-ARTIST B-MUSIC_ITEM O O O
@@ -58,16 +58,16 @@ O B-OBJECT_SELECT B-OBJECT_TYPE O B-RATING_VALUE O O B-BEST_RATING O O
 B-GEOGRAPHIC_POI O B-SPATIAL_RELATION O O O
 B-PLAYLIST O O B-ENTITY_NAME O O
 B-GEOGRAPHIC_POI O B-CONDITION_DESCRIPTION O O
-B-service O B-genre O
-B-playlist O O O B-music_item O
-B-object_type O O B-best_rating B-object_select B-rating_value O
-B-location_name O B-object_type O
-B-object_name B-object_type O
-O B-object_type O B-rating_value O O B-best_rating O O
-O B-movie_name B-location_name O O
-B-service O B-artist O B-music_item O
-O B-object_type O B-rating_value O
-B-service O B-artist O B-music_item O
+B-SERVICE O B-GENRE O
+B-PLAYLIST O O O B-MUSIC_ITEM O
+B-OBJECT_TYPE O O B-BEST_RATING B-OBJECT_SELECT B-RATING_VALUE O
+B-LOCATION_NAME O B-OBJECT_TYPE O
+B-OBJECT_NAME B-OBJECT_TYPE O
+O B-OBJECT_TYPE O B-RATING_VALUE O O B-BEST_RATING O O
+O B-MOVIE_NAME B-LOCATION_NAME O O
+B-SERVICE O B-ARTIST O B-MUSIC_ITEM O
+O B-OBJECT_TYPE O B-RATING_VALUE O
+B-SERVICE O B-ARTIST O B-MUSIC_ITEM O
 B-OBJECT_NAME O
 B-OBJECT_NAME O O B-OBJECT_TYPE O
 B-OBJECT_SELECT B-OBJECT_TYPE O B-RATING_VALUE O O B-BEST_RATING O O
@@ -78,16 +78,16 @@ O B-COUNTRY O B-RESTAURANT_NAME O O O B-PARTY_SIZE_NUMBER
 O B-CURRENT_LOCATION O B-SPATIAL_RELATION B-TIME_RANGE B-CONDITION_DESCRIPTION O
 B-OBJECT_SELECT B-OBJECT_TYPE O B-RATING_VALUE O O B-BEST_RATING B-RATING_UNIT O
 B-ARTIST O B-PLAYLIST_OWNER B-PLAYLIST O O O
-O B-object_name B-object_type O
-B-object_name O B-rating_value O O
-B-object_name B-object_type O
-O B-playlist O O B-artist O O
-B-state O B-timeRange O O O O
-B-object_name B-object_type O
-B-location_name O O O B-movie_type O O O
-O B-object_name O B-best_rating B-rating_value O
-O B-date_time B-object_name O B-object_type O O O
-O B-music_item O O B-playlist O O O
+O B-OBJECT_NAME B-OBJECT_TYPE O
+B-OBJECT_NAME O B-RATING_VALUE O O
+B-OBJECT_NAME B-OBJECT_TYPE O
+O B-PLAYLIST O O B-ARTIST O O
+B-STATE O B-TIMERANGE O O O O
+B-OBJECT_NAME B-OBJECT_TYPE O
+B-LOCATION_NAME O O O B-MOVIE_TYPE O O O
+O B-OBJECT_NAME O B-BEST_RATING B-RATING_VALUE O
+O B-DATE_TIME B-OBJECT_NAME O B-OBJECT_TYPE O O O
+O B-MUSIC_ITEM O O B-PLAYLIST O O O
 B-OBJECT_NAME O B-RATING_VALUE O O
 B-OBJECT_NAME O
 B-MUSIC_ITEM O B-PLAYLIST O O O O
@@ -98,16 +98,16 @@ B-COUNTRY O B-SERVED_DISH O O O B-RESTAURANT_TYPE O O O O O
 B-OBJECT_NAME B-OBJECT_TYPE O
 B-MUSIC_ITEM O B-PLAYLIST O O O O
 B-PARTY_SIZE_NUMBER O O O B-SORT B-RESTAURANT_TYPE O O O B-CUISINE O O O B-SPATIAL_RELATION B-POI
-B-year O O O O B-artist O O O O
-O B-playlist O O O B-music_item O
-O B-object_name B-object_type O O O
-B-object_name O B-best_rating B-rating_value O O
-B-object_name B-object_type O B-rating_value B-rating_unit O
-O B-timeRange B-city O B-condition_temperature O O O
-B-artist O B-album O
-O O B-party_size_description O O B-state O B-restaurant_name O O O O
-B-timeRange O B-restaurant_type O O
-B-spatial_relation B-movie_type O B-object_type O
+B-YEAR O O O O B-ARTIST O O O O
+O B-PLAYLIST O O O B-MUSIC_ITEM O
+O B-OBJECT_NAME B-OBJECT_TYPE O O O
+B-OBJECT_NAME O B-BEST_RATING B-RATING_VALUE O O
+B-OBJECT_NAME B-OBJECT_TYPE O B-RATING_VALUE B-RATING_UNIT O
+O B-TIMERANGE B-CITY O B-CONDITION_TEMPERATURE O O O
+B-ARTIST O B-ALBUM O
+O O B-PARTY_SIZE_DESCRIPTION O O B-STATE O B-RESTAURANT_NAME O O O O
+B-TIMERANGE O B-RESTAURANT_TYPE O O
+B-SPATIAL_RELATION B-MOVIE_TYPE O B-OBJECT_TYPE O
 B-ARTIST O B-PLAYLIST O O O O
 O B-TIMERANGE O B-PARTY_SIZE_NUMBER O O O B-CITY O O O
 B-OBJECT_NAME O B-OBJECT_TYPE O O
@@ -118,16 +118,16 @@ B-ENTITY_NAME O B-PLAYLIST_OWNER B-PLAYLIST O O O O
 B-ARTIST O O B-MUSIC_ITEM O
 B-ENTITY_NAME O B-PLAYLIST O O O O
 B-MUSIC_ITEM O B-PLAYLIST O O O O
-B-object_name O O O B-object_name O
-O B-timeRange B-served_dish B-restaurant_type O O O O O
-O B-object_part_of_series_type O B-rating_value O O
-B-playlist O O O B-music_item O
-O B-timeRange B-restaurant_name O O O O
-O B-timeRange O B-city O B-condition_description O
-O B-object_name O B-best_rating B-rating_value B-rating_unit O O O
-B-year O O O O O O
-B-service O O O
-B-object_name B-object_type O
+B-OBJECT_NAME O O O B-OBJECT_NAME O
+O B-TIMERANGE B-SERVED_DISH B-RESTAURANT_TYPE O O O O O
+O B-OBJECT_PART_OF_SERIES_TYPE O B-RATING_VALUE O O
+B-PLAYLIST O O O B-MUSIC_ITEM O
+O B-TIMERANGE B-RESTAURANT_NAME O O O O
+O B-TIMERANGE O B-CITY O B-CONDITION_DESCRIPTION O
+O B-OBJECT_NAME O B-BEST_RATING B-RATING_VALUE B-RATING_UNIT O O O
+B-YEAR O O O O O O
+B-SERVICE O O O
+B-OBJECT_NAME B-OBJECT_TYPE O
 B-OBJECT_NAME O O B-OBJECT_TYPE O
 B-SPATIAL_RELATION B-OBJECT_LOCATION_TYPE O B-MOVIE_TYPE O O O O
 O O B-OBJECT_NAME O O O
@@ -138,16 +138,16 @@ O B-OBJECT_TYPE B-OBJECT_TYPE O
 B-ENTITY_NAME O B-PLAYLIST O O O
 B-COUNTRY O O O O
 B-OBJECT_NAME O B-RATING_VALUE B-RATING_UNIT O
-B-location_name O O B-movie_type O O O
-B-artist O O O
-B-playlist O O O B-music_item O
-O B-object_select O B-best_rating B-rating_value O O
-B-object_name O B-best_rating B-rating_value O O
-B-object_type O
-O B-object_name O O B-object_type O
-O B-object_select O B-best_rating B-rating_value B-rating_unit O
-B-spatial_relation B-geographic_poi O O O
-O B-timeRange O O B-facility O B-restaurant_type O O O
+B-LOCATION_NAME O O B-MOVIE_TYPE O O O
+B-ARTIST O O O
+B-PLAYLIST O O O B-MUSIC_ITEM O
+O B-OBJECT_SELECT O B-BEST_RATING B-RATING_VALUE O O
+B-OBJECT_NAME O B-BEST_RATING B-RATING_VALUE O O
+B-OBJECT_TYPE O
+O B-OBJECT_NAME O O B-OBJECT_TYPE O
+O B-OBJECT_SELECT O B-BEST_RATING B-RATING_VALUE B-RATING_UNIT O
+B-SPATIAL_RELATION B-GEOGRAPHIC_POI O O O
+O B-TIMERANGE O O B-FACILITY O B-RESTAURANT_TYPE O O O
 O O B-OBJECT_TYPE B-OBJECT_NAME O B-RATING_VALUE O B-BEST_RATING O O O
 B-ENTITY_NAME O O B-PLAYLIST_OWNER B-PLAYLIST O O
 O B-OBJECT_SELECT B-OBJECT_TYPE B-RATING_VALUE O B-BEST_RATING O O O
@@ -158,16 +158,16 @@ B-SERVICE O O O B-MUSIC_ITEM O
 B-COUNTRY O B-TIMERANGE O O O O
 B-ARTIST O B-PLAYLIST O O O O
 B-FACILITY O O B-RESTAURANT_TYPE O B-PARTY_SIZE_NUMBER O O O O
-O B-playlist_owner B-playlist O O O
-B-spatial_relation O B-movie_type O B-object_type O O
-B-city O O O O O O
-B-state O B-spatial_relation B-timeRange O O O O
-B-artist O O B-album O O
-B-country B-city O B-timeRange B-condition_description O O O
-B-object_name O O
-B-year O B-sort B-music_item O
-O B-state O B-restaurant_name O B-party_size_number O O O O
-B-service O O O
+O B-PLAYLIST_OWNER B-PLAYLIST O O O
+B-SPATIAL_RELATION O B-MOVIE_TYPE O B-OBJECT_TYPE O O
+B-CITY O O O O O O
+B-STATE O B-SPATIAL_RELATION B-TIMERANGE O O O O
+B-ARTIST O O B-ALBUM O O
+B-COUNTRY B-CITY O B-TIMERANGE B-CONDITION_DESCRIPTION O O O
+B-OBJECT_NAME O O
+B-YEAR O B-SORT B-MUSIC_ITEM O
+O B-STATE O B-RESTAURANT_NAME O B-PARTY_SIZE_NUMBER O O O O
+B-SERVICE O O O
 B-OBJECT_SELECT B-OBJECT_PART_OF_SERIES_TYPE O B-RATING_VALUE B-RATING_UNIT O
 B-OBJECT_NAME O
 O B-OBJECT_TYPE B-OBJECT_NAME O O O
@@ -178,16 +178,16 @@ O B-SPATIAL_RELATION B-OBJECT_LOCATION_TYPE O B-MOVIE_NAME O O O O O
 B-OBJECT_NAME O O B-OBJECT_TYPE O
 B-MOVIE_NAME O O O O
 O O B-YEAR O B-ARTIST O O B-SERVICE O O O O
-B-year O B-music_item B-artist O O O
-O B-artist O O B-music_item B-playlist O O O O O
-B-entity_name O B-playlist O O O
-O B-music_item O B-playlist O O O
-O B-object_select O B-rating_value O O O B-best_rating O O O
-B-spatial_relation O B-movie_type O B-object_type O
-O O B-object_select O B-rating_value O B-best_rating B-rating_unit O O
-B-artist O O B-music_item O
-B-object_name O B-object_name O
-O B-spatial_relation B-object_location_type O B-movie_type O O O
+B-YEAR O B-MUSIC_ITEM B-ARTIST O O O
+O B-ARTIST O O B-MUSIC_ITEM B-PLAYLIST O O O O O
+B-ENTITY_NAME O B-PLAYLIST O O O
+O B-MUSIC_ITEM O B-PLAYLIST O O O
+O B-OBJECT_SELECT O B-RATING_VALUE O O O B-BEST_RATING O O O
+B-SPATIAL_RELATION O B-MOVIE_TYPE O B-OBJECT_TYPE O
+O O B-OBJECT_SELECT O B-RATING_VALUE O B-BEST_RATING B-RATING_UNIT O O
+B-ARTIST O O B-MUSIC_ITEM O
+B-OBJECT_NAME O B-OBJECT_NAME O
+O B-SPATIAL_RELATION B-OBJECT_LOCATION_TYPE O B-MOVIE_TYPE O O O
 B-STATE O B-TIME_RANGE O B-TIME_RANGE O O
 B-ENTITY_NAME O O B-PLAYLIST_OWNER B-PLAYLIST O O
 B-OBJECT_NAME O B-OBJECT_TYPE O O O O
@@ -198,16 +198,16 @@ B-SERVICE O B-YEAR O O B-MUSIC_ITEM O
 O B-CUISINE B-RESTAURANT_TYPE O O O O O
 B-COUNTRY O B-PARTY_SIZE_DESCRIPTION O B-RESTAURANT_TYPE O O O O
 B-SERVICE O B-ARTIST O B-SORT B-MUSIC_ITEM O
-B-object_type O B-object_name O O
-O B-entity_name O O B-playlist O O O
-B-playlist O O O B-entity_name O B-music_item O
-O B-object_select B-object_type O B-rating_value O B-best_rating B-rating_unit O O
-B-city O B-timeRange O O B-restaurant_type O O
-O B-entity_name O O B-playlist O O O
-O B-object_select O B-rating_value O O
-B-city O B-state O B-party_size_number O O O O B-restaurant_type O O
-B-city O B-condition_description B-timeRange O O O
-O B-entity_name O O B-playlist O O O
+B-OBJECT_TYPE O B-OBJECT_NAME O O
+O B-ENTITY_NAME O O B-PLAYLIST O O O
+B-PLAYLIST O O O B-ENTITY_NAME O B-MUSIC_ITEM O
+O B-OBJECT_SELECT B-OBJECT_TYPE O B-RATING_VALUE O B-BEST_RATING B-RATING_UNIT O O
+B-CITY O B-TIMERANGE O O B-RESTAURANT_TYPE O O
+O B-ENTITY_NAME O O B-PLAYLIST O O O
+O B-OBJECT_SELECT O B-RATING_VALUE O O
+B-CITY O B-STATE O B-PARTY_SIZE_NUMBER O O O O B-RESTAURANT_TYPE O O
+B-CITY O B-CONDITION_DESCRIPTION B-TIMERANGE O O O
+O B-ENTITY_NAME O O B-PLAYLIST O O O
 B-ENTITY_NAME O O B-PLAYLIST_OWNER B-PLAYLIST O O
 B-OBJECT_NAME B-OBJECT_TYPE O O O
 O O B-RESTAURANT_NAME O O O O O
@@ -218,17 +218,17 @@ O B-CURRENT_LOCATION O B-TIME_RANGE O B-CONDITION_TEMPERATURE O O
 B-MOVIE_NAME O B-TIME_RANGE O O O
 B-ENTITY_NAME O B-PLAYLIST_OWNER O B-PLAYLIST O O O
 B-MOVIE_NAME B-LOCATION_NAME O O O O O
-O B-object_name O O
-O B-object_type O O O O O B-rating_unit O O O O B-rating_value O
-O B-object_name O O
-O B-artist O O O B-playlist O O O
-O B-object_name O O
-O B-entity_name O O O O B-playlist O O O O
-B-playlist O O O B-artist O O O
-B-city O O B-condition_temperature O O O O O
-O B-object_name O O B-object_type O O O
-O B-track O B-artist O O O
-O B-track O B-artist O O O
+O B-OBJECT_NAME O O
+O B-OBJECT_TYPE O O O O O B-RATING_UNIT O O O O B-RATING_VALUE O
+O B-OBJECT_NAME O O
+O B-ARTIST O O O B-PLAYLIST O O O
+O B-OBJECT_NAME O O
+O B-ENTITY_NAME O O O O B-PLAYLIST O O O O
+B-PLAYLIST O O O B-ARTIST O O O
+B-CITY O O B-CONDITION_TEMPERATURE O O O O O
+O B-OBJECT_NAME O O B-OBJECT_TYPE O O O
+O B-TRACK O B-ARTIST O O O
+O B-TRACK O B-ARTIST O O O
 B-CITY O B-SPATIAL_RELATION B-RESTAURANT_TYPE B-PARTY_SIZE_NUMBER O O O O O
 O B-OBJECT_TYPE O B-RATING_VALUE B-RATING_UNIT O
 B-ARTIST O B-YEAR B-MUSIC_ITEM O
@@ -238,16 +238,16 @@ O B-RESTAURANT_TYPE O B-PARTY_SIZE_NUMBER O O O B-RESTAURANT_TYPE O O O O B-SERV
 B-OBJECT_NAME O B-BEST_RATING O O B-RATING_VALUE O
 B-MOVIE_NAME O O O O O
 B-YEAR O B-MUSIC_ITEM O
-O B-album O O
-O B-playlist O O O O B-music_item O
-O B-object_name O B-object_type O O O
-O B-playlist O O O O B-music_item O
-O B-object_name O B-object_type O
-O B-artist O O O B-music_item O B-playlist O O O O
-O B-artist O O B-music_item O B-playlist O O O O
-O B-restaurant_name O O O B-country O O B-party_size_number O O O O O
-O B-artist O O O O B-year O O
-O B-artist O O O B-music_item O
+O B-ALBUM O O
+O B-PLAYLIST O O O O B-MUSIC_ITEM O
+O B-OBJECT_NAME O B-OBJECT_TYPE O O O
+O B-PLAYLIST O O O O B-MUSIC_ITEM O
+O B-OBJECT_NAME O B-OBJECT_TYPE O
+O B-ARTIST O O O B-MUSIC_ITEM O B-PLAYLIST O O O O
+O B-ARTIST O O B-MUSIC_ITEM O B-PLAYLIST O O O O
+O B-RESTAURANT_NAME O O O B-COUNTRY O O B-PARTY_SIZE_NUMBER O O O O O
+O B-ARTIST O O O O B-YEAR O O
+O B-ARTIST O O O B-MUSIC_ITEM O
 B-POI O B-PARTY_SIZE_NUMBER O O O O B-SPATIAL_RELATION B-FACILITY B-RESTAURANT_TYPE O O
 B-ARTIST O B-YEAR O B-MUSIC_ITEM B-SERVICE O O
 O B-PLAYLIST_OWNER B-PLAYLIST O O B-MUSIC_ITEM O
@@ -258,16 +258,16 @@ B-OBJECT_TYPE B-OBJECT_TYPE O O
 B-STATE O O O O O B-CONDITION_DESCRIPTION O
 B-CITY B-COUNTRY O O O O
 O O O B-MUSIC_ITEM O B-PLAYLIST O O O O O
-O B-state O O O B-spatial_relation O B-restaurant_type O O B-served_dish O O O O B-party_size_number O O O B-timeRange O O O
-O B-object_select B-object_type O B-best_rating O O B-rating_value O O
-O O B-sort B-restaurant_type O O O
-O B-object_select B-object_type O B-rating_value B-rating_unit O
-O B-spatial_relation O O O O O O
-O O B-restaurant_type O O O O B-facility O
-O B-service O O B-genre O O
-O B-artist O O B-sort O O
-O B-service O O B-artist O B-year O B-music_item O
-O B-state O O O O B-restaurant_type B-restaurant_type O B-party_size_number O O O O O
+O B-STATE O O O B-SPATIAL_RELATION O B-RESTAURANT_TYPE O O B-SERVED_DISH O O O O B-PARTY_SIZE_NUMBER O O O B-TIMERANGE O O O
+O B-OBJECT_SELECT B-OBJECT_TYPE O B-BEST_RATING O O B-RATING_VALUE O O
+O O B-SORT B-RESTAURANT_TYPE O O O
+O B-OBJECT_SELECT B-OBJECT_TYPE O B-RATING_VALUE B-RATING_UNIT O
+O B-SPATIAL_RELATION O O O O O O
+O O B-RESTAURANT_TYPE O O O O B-FACILITY O
+O B-SERVICE O O B-GENRE O O
+O B-ARTIST O O B-SORT O O
+O B-SERVICE O O B-ARTIST O B-YEAR O B-MUSIC_ITEM O
+O B-STATE O O O O B-RESTAURANT_TYPE B-RESTAURANT_TYPE O B-PARTY_SIZE_NUMBER O O O O O
 B-PLAYLIST O O B-ENTITY_NAME O O
 B-TIME_RANGE O B-STATE O O O O
 O B-OBJECT_TYPE B-OBJECT_NAME O
@@ -278,16 +278,16 @@ O B-OBJECT_NAME O B-RATING_VALUE O O O B-BEST_RATING B-BEST_RATING O
 O B-YEAR O B-ARTIST O O B-SERVICE O O
 B-MOVIE_TYPE B-LOCATION_NAME O O O O O
 B-PARTY_SIZE_NUMBER O O O O B-RESTAURANT_TYPE O O
-O B-location_name O O B-object_type O
-O B-city O B-country O B-condition_temperature O
-O B-object_name O B-object_type O
-O O O B-country O O O O O
-O B-object_name O O O O
-O B-restaurant_name O B-city O B-party_size_description O O O O O O
-O B-city O B-state O B-condition_temperature O O O O O
-O B-entity_name O O B-playlist_owner B-playlist O O O
-O B-city O O O B-timeRange O
-O O B-restaurant_type O B-party_size_number O O O O O
+O B-LOCATION_NAME O O B-OBJECT_TYPE O
+O B-CITY O B-COUNTRY O B-CONDITION_TEMPERATURE O
+O B-OBJECT_NAME O B-OBJECT_TYPE O
+O O O B-COUNTRY O O O O O
+O B-OBJECT_NAME O O O O
+O B-RESTAURANT_NAME O B-CITY O B-PARTY_SIZE_DESCRIPTION O O O O O O
+O B-CITY O B-STATE O B-CONDITION_TEMPERATURE O O O O O
+O B-ENTITY_NAME O O B-PLAYLIST_OWNER B-PLAYLIST O O O
+O B-CITY O O O B-TIMERANGE O
+O O B-RESTAURANT_TYPE O B-PARTY_SIZE_NUMBER O O O O O
 B-OBJECT_NAME O B-RATING_VALUE O O B-BEST_RATING O O
 B-ARTIST O O B-PLAYLIST O O O O
 B-RESTAURANT_NAME O B-PARTY_SIZE_NUMBER O O O O O
@@ -298,16 +298,16 @@ B-LOCATION_NAME O B-OBJECT_TYPE O
 B-STATE O B-PARTY_SIZE_NUMBER O O O B-RESTAURANT_TYPE O
 B-SERVICE O B-ARTIST O B-TRACK O
 B-COUNTRY O B-PARTY_SIZE_DESCRIPTION O B-RESTAURANT_TYPE O
-O B-object_name O O
-O B-track O O B-artist O O
-O B-music_item O O B-playlist_owner B-playlist O O O
-O B-country O B-timeRange O O O
-O O B-movie_name O O O O O
-O B-location_name O O B-object_type O
-O B-object_name O O B-best_rating O O B-rating_value B-rating_unit O
-O B-object_name O B-object_type O O O
-O O B-object_name O O O B-object_type O O O
-O B-artist O O B-playlist O O O
+O B-OBJECT_NAME O O
+O B-TRACK O O B-ARTIST O O
+O B-MUSIC_ITEM O O B-PLAYLIST_OWNER B-PLAYLIST O O O
+O B-COUNTRY O B-TIMERANGE O O O
+O O B-MOVIE_NAME O O O O O
+O B-LOCATION_NAME O O B-OBJECT_TYPE O
+O B-OBJECT_NAME O O B-BEST_RATING O O B-RATING_VALUE B-RATING_UNIT O
+O B-OBJECT_NAME O B-OBJECT_TYPE O O O
+O O B-OBJECT_NAME O O O B-OBJECT_TYPE O O O
+O B-ARTIST O O B-PLAYLIST O O O
 B-ENTITY_NAME O O B-PLAYLIST_OWNER O O O O
 B-PLAYLIST O O B-PLAYLIST_OWNER O O O O
 O B-OBJECT_PART_OF_SERIES_TYPE B-OBJECT_NAME O B-RATING_VALUE B-RATING_UNIT O O O
@@ -318,16 +318,16 @@ O B-OBJECT_TYPE O O O B-RATING_VALUE O O
 O O B-ENTITY_NAME O O B-PLAYLIST O O O O O O
 O O B-SERVICE O B-YEAR O B-ARTIST O O B-MUSIC_ITEM O O O
 O O B-ENTITY_NAME O O B-PLAYLIST O O O O O O
-O O B-object_name O O O O
-O O B-object_name O B-object_type O O O O
-O B-party_size_description O O B-restaurant_name O O O O O O B-city O
-O B-movie_name O B-object_location_type O O O O O O
-B-year O O O
-O B-entity_name O O B-playlist O O O
-O B-object_name O B-object_type O
-B-spatial_relation O B-movie_type B-object_location_type O O O O O O
-B-sort B-artist O
-B-city O O O O
+O O B-OBJECT_NAME O O O O
+O O B-OBJECT_NAME O B-OBJECT_TYPE O O O O
+O B-PARTY_SIZE_DESCRIPTION O O B-RESTAURANT_NAME O O O O O O B-CITY O
+O B-MOVIE_NAME O B-OBJECT_LOCATION_TYPE O O O O O O
+B-YEAR O O O
+O B-ENTITY_NAME O O B-PLAYLIST O O O
+O B-OBJECT_NAME O B-OBJECT_TYPE O
+B-SPATIAL_RELATION O B-MOVIE_TYPE B-OBJECT_LOCATION_TYPE O O O O O O
+B-SORT B-ARTIST O
+B-CITY O O O O
 O O B-PLAYLIST O O O B-ENTITY_NAME O O O O
 B-CITY O B-PARTY_SIZE_NUMBER O O O O O O O
 O O B-YEAR O B-MUSIC_ITEM O
@@ -338,16 +338,16 @@ B-OBJECT_NAME O B-BEST_RATING O O B-RATING_VALUE B-RATING_UNIT O
 B-SPATIAL_RELATION B-MOVIE_TYPE O B-OBJECT_TYPE O
 O B-OBJECT_NAME O B-OBJECT_TYPE O
 B-OBJECT_NAME O O O B-OBJECT_TYPE O
-O B-object_name O O B-rating_value B-rating_unit O O O O B-best_rating O
-B-party_size_description O B-restaurant_type O O O O B-timeRange O
-B-service O O B-sort O B-artist O O
-O B-timeRange B-city O B-condition_temperature O
-B-object_type O
-O B-location_name O B-object_type O O O
-B-artist O O O
-O B-object_name O O O O O
-O O O O O B-party_size_number O O O O B-spatial_relation O O O B-restaurant_type O B-served_dish O
-O B-city O O B-restaurant_type O B-sort B-cuisine O O B-party_size_number O O
+O B-OBJECT_NAME O O B-RATING_VALUE B-RATING_UNIT O O O O B-BEST_RATING O
+B-PARTY_SIZE_DESCRIPTION O B-RESTAURANT_TYPE O O O O B-TIMERANGE O
+B-SERVICE O O B-SORT O B-ARTIST O O
+O B-TIMERANGE B-CITY O B-CONDITION_TEMPERATURE O
+B-OBJECT_TYPE O
+O B-LOCATION_NAME O B-OBJECT_TYPE O O O
+B-ARTIST O O O
+O B-OBJECT_NAME O O O O O
+O O O O O B-PARTY_SIZE_NUMBER O O O O B-SPATIAL_RELATION O O O B-RESTAURANT_TYPE O B-SERVED_DISH O
+O B-CITY O O B-RESTAURANT_TYPE O B-SORT B-CUISINE O O B-PARTY_SIZE_NUMBER O O
 B-CITY O B-STATE O B-TIME_RANGE O O O
 O B-RESTAURANT_TYPE O B-PARTY_SIZE_NUMBER O O O O O O B-SERVED_DISH O O O
 O B-TIME_RANGE B-STATE O B-CONDITION_DESCRIPTION O
@@ -358,16 +358,16 @@ B-LOCATION_NAME O B-MOVIE_TYPE O O O
 B-SERVICE O O B-YEAR O B-MUSIC_ITEM O
 B-ENTITY_NAME O O B-PLAYLIST_OWNER B-PLAYLIST O O O
 B-OBJECT_SELECT B-OBJECT_TYPE O B-RATING_VALUE B-RATING_UNIT O
-O O O B-restaurant_type O O O O O B-facility O B-party_size_description O O
-B-object_name B-object_part_of_series_type O B-rating_value O O
-O B-restaurant_name O O O O
-O B-spatial_relation B-object_location_type O B-movie_type O
-B-service O B-artist B-music_item O
-O O B-object_name O O B-rating_value O O O O
-O B-object_select B-rating_value O O B-best_rating O
-O B-object_name O O B-rating_value O O B-best_rating B-rating_unit O O
-O B-entity_name O O B-playlist_owner B-playlist O O O
-O B-entity_name O O B-playlist B-playlist O O
+O O O B-RESTAURANT_TYPE O O O O O B-FACILITY O B-PARTY_SIZE_DESCRIPTION O O
+B-OBJECT_NAME B-OBJECT_PART_OF_SERIES_TYPE O B-RATING_VALUE O O
+O B-RESTAURANT_NAME O O O O
+O B-SPATIAL_RELATION B-OBJECT_LOCATION_TYPE O B-MOVIE_TYPE O
+B-SERVICE O B-ARTIST B-MUSIC_ITEM O
+O O B-OBJECT_NAME O O B-RATING_VALUE O O O O
+O B-OBJECT_SELECT B-RATING_VALUE O O B-BEST_RATING O
+O B-OBJECT_NAME O O B-RATING_VALUE O O B-BEST_RATING B-RATING_UNIT O O
+O B-ENTITY_NAME O O B-PLAYLIST_OWNER B-PLAYLIST O O O
+O B-ENTITY_NAME O O B-PLAYLIST B-PLAYLIST O O
 B-STATE O B-CONDITION_TEMPERATURE O O O O O
 B-ENTITY_NAME O O B-PLAYLIST_OWNER B-PLAYLIST O O O
 O B-OBJECT_NAME O O O B-RATING_VALUE O O B-BEST_RATING O O
@@ -378,16 +378,16 @@ B-SPATIAL_RELATION B-OBJECT_LOCATION_TYPE O O B-MOVIE_TYPE O O
 O B-RESTAURANT_NAME O O B-CITY O B-PARTY_SIZE_NUMBER O O O O
 B-ARTIST O O B-MUSIC_ITEM O B-PLAYLIST_OWNER B-PLAYLIST O O O
 B-CURRENT_LOCATION O O O O O
-O B-music_item O O B-playlist_owner B-playlist O O O
-O B-artist O B-album O O O
-O B-object_name O O O B-object_type O
-O B-movie_name O O O O O
-O O B-object_select B-object_type O B-rating_value O O O O
-B-spatial_relation B-object_location_type O B-movie_type B-movie_type O O O O
-O O B-object_select B-object_type O B-rating_value O O O O O B-best_rating O
-B-location_name O B-object_type O
-B-location_name O O B-movie_type O O O
-B-playlist B-playlist O O B-music_item O O
+O B-MUSIC_ITEM O O B-PLAYLIST_OWNER B-PLAYLIST O O O
+O B-ARTIST O B-ALBUM O O O
+O B-OBJECT_NAME O O O B-OBJECT_TYPE O
+O B-MOVIE_NAME O O O O O
+O O B-OBJECT_SELECT B-OBJECT_TYPE O B-RATING_VALUE O O O O
+B-SPATIAL_RELATION B-OBJECT_LOCATION_TYPE O B-MOVIE_TYPE B-MOVIE_TYPE O O O O
+O O B-OBJECT_SELECT B-OBJECT_TYPE O B-RATING_VALUE O O O O O B-BEST_RATING O
+B-LOCATION_NAME O B-OBJECT_TYPE O
+B-LOCATION_NAME O O B-MOVIE_TYPE O O O
+B-PLAYLIST B-PLAYLIST O O B-MUSIC_ITEM O O
 B-TIMERANGE O B-GEOGRAPHIC_POI O O O O
 O B-STATE B-RESTAURANT_NAME O B-PARTY_SIZE_NUMBER O O B-TIMERANGE O O O
 B-SPATIAL_RELATION B-TIMERANGE O O O O
@@ -398,16 +398,16 @@ B-ARTIST O O B-MUSIC_ITEM O B-PLAYLIST_OWNER B-PLAYLIST O O O
 O O B-MOVIE_NAME O O O O O
 O B-CITY O B-STATE O B-CONDITION_TEMPERATURE O
 O B-RESTAURANT_TYPE O O O B-TIMERANGE O O B-SERVED_DISH O O
-O B-object_name O B-object_type O
-O B-music_item O O B-playlist O O O O
-B-restaurant_name O O B-state O O O
-O B-object_name O O B-rating_value O O
-O B-year O O B-music_item O O O
-O B-object_name O O O B-object_type O
-B-country O B-spatial_relation O O O O O
-O B-object_name B-object_type O
-O B-music_item O O B-playlist O O O O
-B-state O B-timeRange O B-served_dish O O O B-restaurant_type O B-party_size_number O O O O O
+O B-OBJECT_NAME O B-OBJECT_TYPE O
+O B-MUSIC_ITEM O O B-PLAYLIST O O O O
+B-RESTAURANT_NAME O O B-STATE O O O
+O B-OBJECT_NAME O O B-RATING_VALUE O O
+O B-YEAR O O B-MUSIC_ITEM O O O
+O B-OBJECT_NAME O O O B-OBJECT_TYPE O
+B-COUNTRY O B-SPATIAL_RELATION O O O O O
+O B-OBJECT_NAME B-OBJECT_TYPE O
+O B-MUSIC_ITEM O O B-PLAYLIST O O O O
+B-STATE O B-TIMERANGE O B-SERVED_DISH O O O B-RESTAURANT_TYPE O B-PARTY_SIZE_NUMBER O O O O O
 O B-PLAYLIST O O O O B-MUSIC_ITEM O O
 B-SERVICE O B-ARTIST O B-ALBUM O B-ALBUM O O
 O B-PARTY_SIZE_NUMBER O B-RESTAURANT_TYPE O B-SERVED_DISH O O O O B-STATE O O
@@ -1998,1003 +1998,702 @@ B-CITY O O O O
 B-COUNTRY O O O O
 O B-OBJECT_SELECT O B-BEST_RATING O O B-RATING_VALUE B-RATING_UNIT O
 B-OBJECT_NAME O
-B-movie_name O O O O O O
-O B-party_size_description O B-restaurant_type O O O O O B-spatial_relation O
-B-object_name O
-B-spatial_relation B-object_location_type O O O B-movie_type O O O
-O B-restaurant_type O B-party_size_number O O O B-sort O O O
-B-artist O O B-year O B-music_item O
-B-object_type B-object_name O B-best_rating O O B-rating_value B-rating_unit O
-B-object_name O B-rating_value B-rating_unit O
-B-country O O B-facility O B-restaurant_type O B-party_size_number O O O O O O
-O B-state O O B-restaurant_type O B-party_size_number O O O O O O O B-spatial_relation O O O B-served_dish O O
-B-artist O O B-sort O
-O B-music_item O B-playlist O O O
-O B-music_item O O B-playlist_owner B-playlist O O O
-O B-object_select O B-rating_value B-rating_unit O
-B-artist O B-album O
-O B-timeRange O B-country O B-condition_description O
-O B-music_item O B-playlist_owner O B-playlist O O O O
-O B-timeRange B-current_location B-condition_description O O O
-B-object_name O B-object_type O
-B-current_location B-condition_description O O
-B-object_name B-object_type O O
-O B-object_type B-object_name O B-rating_value B-rating_unit O
-O B-playlist_owner B-playlist O O B-music_item O O
-B-object_name O O O B-object_type O
-B-object_type O O
-B-object_name O B-best_rating O O B-rating_value O O
-B-object_name B-object_type O
-B-object_type B-object_name O
-O B-object_name O B-rating_value O
-O B-playlist O O B-artist O O
-B-state O O O O O O
-O B-timeRange O B-state O O B-spatial_relation B-condition_temperature O
-O O O O O B-country O B-city O B-condition_description O
-B-entity_name O O B-playlist_owner B-playlist O O
-O B-movie_name O O B-object_location_type O O
-O B-city O B-condition_temperature O
-O B-object_name O O O O
-O O B-artist O O B-music_item O B-playlist_owner B-playlist O O O O O
-O B-location_name O B-object_type O
-B-spatial_relation O B-object_location_type O B-movie_name O O O
-B-object_name O O
-O B-playlist_owner B-playlist O B-music_item O O
-B-state O B-city O B-party_size_number O O O O O
-O B-playlist_owner B-playlist O B-artist O O
-O B-city O B-object_type O O
-O B-object_name O B-rating_value O O
-B-service O B-genre O
-B-object_name O B-rating_value O O
-O B-sort B-restaurant_type O B-party_size_number O O B-object_type O
-B-spatial_relation O B-movie_type O B-object_type O
-B-artist O O B-sort O O
-B-service O O O B-year O B-artist O O O
-O B-service O B-artist O B-year O B-music_item O O O
-O B-object_name O O O B-object_type O O O
-B-object_name O B-rating_value B-rating_unit O
-B-location_name O O O B-movie_type B-movie_type O O O O
-O B-object_name B-object_type O O O O O O O
-B-timeRange O B-state O B-condition_description O O
-B-timeRange O B-party_size_number O O B-facility B-restaurant_type O O O O O
-O B-state O B-served_dish O O O B-restaurant_type O O O O
-O B-city B-state O B-timeRange B-condition_description O O O
-O O B-movie_name O B-object_location_type O O O O
-O O B-party_size_description O O O B-restaurant_type O B-cuisine O O
-O B-object_location_type B-movie_name O B-timeRange O O O
-B-service O B-artist O B-track O O
-O B-playlist_owner B-playlist O B-entity_name O O
-B-object_select O B-rating_value O O
-B-object_name O O O B-object_type O
-O B-object_type O B-rating_value B-rating_unit O
-B-object_name O B-object_type O
-B-geographic_poi O O B-timeRange O O O O
-B-playlist O O O B-artist O O
-B-playlist O O B-entity_name O O
-B-location_name O B-object_type O
-O B-state O O B-spatial_relation B-restaurant_type B-party_size_number O O O O O O
-B-movie_name O O
-B-location_name O O O B-movie_type B-movie_type O O O O
-B-location_name O O O B-movie_type O O O
-O B-object_name B-object_type O O O
-B-location_name O O B-movie_type O O O O O O
-O O B-artist O B-sort B-music_item O O O
-B-object_name O B-rating_value B-rating_unit O
-O B-spatial_relation O B-movie_type O B-object_type O
-O B-playlist_owner B-playlist O B-music_item O O
-B-object_type O B-object_type O
-B-party_size_description O O B-restaurant_name B-country O O O
-O B-current_location O B-condition_description O
-B-object_name O O O B-object_type O
-B-object_part_of_series_type B-object_name O B-rating_value O O B-best_rating B-rating_unit O
-B-object_name O
-B-geographic_poi O O B-timeRange O O O
-B-artist O B-music_item O O
-O B-timeRange O B-restaurant_type O O B-party_size_description O O O O O
-B-object_name O B-rating_value O O O
-B-restaurant_name O B-timeRange O B-party_size_number O O O O O
-O B-object_name B-object_type O
-B-object_name O O B-object_type O
-B-country O B-served_dish B-restaurant_type O B-party_size_description O B-party_size_description O O O O
-B-city B-state O O B-timeRange O O O
-B-artist O B-sort O O
-B-artist O O B-year B-music_item O
-O B-spatial_relation O O O B-cuisine B-restaurant_type O B-party_size_number O O O O
-O B-spatial_relation O O B-movie_type B-timeRange O O O O
-B-location_name O B-movie_name O
-B-object_name O
-O B-object_name O
-O B-spatial_relation O B-movie_type O B-object_location_type O
-B-city B-state O O O O
-B-location_name O B-timeRange O B-object_type O
-B-object_name O B-best_rating O O B-rating_value B-rating_unit O
-B-object_name B-object_type O O
-B-city O B-timeRange O O O O
-B-city O B-spatial_relation O O B-party_size_number O O O O
-B-location_name O B-object_type O
-B-city O B-restaurant_type B-party_size_description O O
-B-state O O B-spatial_relation B-restaurant_type O B-party_size_description O O O O O
-B-spatial_relation B-movie_type O B-object_type O
-B-city O O B-restaurant_type O B-served_dish O O O O O O
-B-entity_name O O B-playlist_owner B-playlist O O O
-O B-object_select B-rating_value B-rating_unit O
-O B-artist O B-year O B-music_item O O
-B-object_select B-object_type O B-best_rating O O B-rating_value O O
-B-object_name O O O B-rating_value B-rating_unit O O
-B-city O B-served_dish O O O O B-restaurant_type O O
-B-city B-state O O O O
-B-year O O B-music_item O
-O B-genre O
-O B-spatial_relation O O B-movie_type O O B-object_type O
-O B-service O B-music_item O O
-O B-current_location B-timeRange O B-condition_temperature O
-B-state O B-timeRange O O O O
-O B-city O B-timeRange O B-condition_temperature O
-B-object_name O O B-object_type O
-B-object_name B-object_type O
-B-playlist O B-playlist O O
-B-object_name O B-rating_value O O O
-B-service O B-music_item O O B-year O B-music_item O
-B-object_name O B-object_type O
-B-object_type O O O O O O
-B-artist O B-service O O
-O B-object_location_type O O B-movie_name O O O B-spatial_relation B-timeRange
-B-year O O O B-artist O O O
-B-object_name O B-best_rating O O B-rating_value O O
-O B-object_select B-object_type O B-best_rating O O B-rating_value B-rating_unit O
-B-restaurant_name O O O B-party_size_description O O O O O O
-O B-music_item B-artist O B-playlist_owner O B-playlist O O O
-B-playlist O O B-music_item O
-B-object_name O B-object_type O
-B-object_name O B-rating_value B-rating_unit O O O O
-O B-state O B-city O B-condition_temperature O
-B-object_type O B-best_rating O O B-rating_value B-rating_unit O
-B-object_name O O B-object_type O
-B-object_type O B-best_rating O O B-rating_value B-rating_unit O
-O O B-object_select O B-rating_value O O
-B-location_name O B-object_type O
-B-object_name O O B-object_type O B-rating_value B-rating_unit O
-B-geographic_poi O O O O
-O B-music_item O B-playlist O O O
-B-object_name O B-rating_value B-rating_unit O
-O B-object_type O B-rating_value B-rating_unit O
-B-location_name O B-object_type O
-B-geographic_poi O O O O O
-B-timeRange B-city O O O O
-B-object_name O O B-object_type O
-B-city O B-state O O O O O O B-timeRange O O O
-B-object_name O B-object_type O
-B-object_name B-object_type O
-B-country O B-served_dish O O O B-restaurant_type O O O O O
-B-object_name O B-rating_value B-rating_unit O O O
-B-timeRange O B-state O B-spatial_relation O O O
-B-object_select B-object_part_of_series_type O B-rating_value O
-O B-timeRange B-state O B-condition_temperature O
-B-object_name B-object_type O
-B-object_select B-object_type O B-best_rating O O B-rating_value B-rating_unit O
-B-playlist O O B-music_item O
-O B-city O B-condition_temperature O
-B-spatial_relation B-object_location_type O B-movie_type O O O O O
-B-object_select B-object_type O B-rating_value B-rating_unit O
-B-location_name O B-object_type O O
-B-current_location O B-spatial_relation B-condition_temperature O O O O
-B-artist O O B-playlist_owner B-playlist O O O
-B-entity_name O O B-playlist O O O
-O B-object_select B-object_type O B-rating_value B-rating_unit O O O O O
-O O O B-spatial_relation B-movie_type O B-object_type O O O
-O B-genre O
-B-object_name O B-rating_value O O B-best_rating B-rating_unit O O O
-O O B-restaurant_type O O O B-served_dish O O O B-party_size_number O O O O
-B-location_name O B-object_type O O
-B-artist O B-year B-music_item O
-O O B-restaurant_type O B-served_dish O O O O O O B-timeRange O
-B-entity_name O B-playlist_owner B-playlist O O O
-B-object_name B-object_type O
-B-spatial_relation B-object_location_type O B-timeRange B-movie_type O O
-B-city O O B-restaurant_type O O
-B-object_select B-object_type O B-rating_value B-rating_unit O
-O B-object_name B-object_type O O
-B-location_name O O B-movie_type O O O
-O B-object_name O B-rating_value O O O
-B-object_name O
-O B-movie_name B-timeRange B-location_name O O O O
-B-city O B-country O O O O
-B-movie_name O
-B-object_select B-object_type O B-rating_value O O B-best_rating B-rating_unit O
-O B-object_name O B-object_type O O O
-O B-movie_name B-spatial_relation B-object_location_type O O O O
-B-spatial_relation O B-object_location_type O O B-movie_name O O O
-B-artist O B-music_item B-service O O
-O B-music_item O O B-playlist O O O
-B-movie_type B-spatial_relation O
-O O B-artist O B-year O O O O O
-B-object_select B-object_type O B-rating_value B-rating_unit O
-B-timeRange O B-state O O O O
-B-genre O
-B-service O B-artist O O O O
-O B-object_name B-object_type O
-B-city O B-condition_temperature O
-O O B-object_name B-object_type O O O
-B-movie_name O O O O
-B-country O B-restaurant_name O O O O
-B-entity_name O B-playlist_owner B-playlist O O O
-B-best_rating O O B-object_name O B-rating_value O
-O B-artist O O O O O
-O B-object_type O B-rating_value O O B-best_rating O O
-O B-artist O B-music_item O O
-B-city O O B-sort B-cuisine B-restaurant_type B-party_size_description O O B-timeRange O O O
-B-entity_name O O B-playlist O O
-B-timeRange O B-party_size_description O O B-restaurant_name O O O
-O B-movie_name O B-object_type B-location_name O O
-O B-restaurant_name O B-state O O O O B-party_size_number O O
-B-object_name O B-best_rating O O B-rating_value B-rating_unit O
-B-object_name O B-object_type O
-O B-object_name O B-rating_value B-rating_unit O
-B-object_name O
-B-service O O B-artist O B-album O
-B-object_name O B-object_type O
-O B-artist O B-year O O B-service O O O O
-O O B-movie_type B-location_name O B-timeRange O O O O
-B-location_name O O O O O O
-O B-state O O B-restaurant_type O B-party_size_number O O O O O O
-B-object_name B-object_type O
-O B-object_name O O B-object_type O O
-O B-object_name O O B-object_type O
-O B-object_type O O B-rating_value B-rating_unit O O
-B-object_name O B-object_type O
-B-service O B-artist O O B-year B-music_item O
-O B-city O B-country O B-condition_description O
-O B-object_type O B-rating_value O O
-B-current_location O B-timeRange O B-spatial_relation O O O
-B-object_name O B-object_type O
-B-service O B-artist O O O
-O B-spatial_relation O B-timeRange O O O
-B-city B-state O O O O O O
-B-timeRange O B-party_size_number O O O B-restaurant_type O O
-B-city O O O O O
-O B-object_select O O O B-rating_value B-rating_unit O
-B-artist O O O
-B-entity_name O O B-playlist_owner B-playlist O O O
-O B-music_item O B-playlist O O O
-O B-object_name O O O
-B-service O B-artist O B-year O B-music_item O
-B-poi O B-spatial_relation O B-restaurant_type O B-party_size_description O O O O
-O B-city O B-restaurant_name O O O O
-B-service O B-artist O O B-music_item O
-O B-playlist O O B-entity_name O
-O B-state O O B-restaurant_type O B-party_size_description O O O O
-O B-city O B-timeRange O B-condition_temperature O
-O B-country O B-spatial_relation B-timeRange O B-condition_description O
-B-service O O B-genre O
-B-object_type O O
-O B-object_type B-object_name O O O O
-B-artist O O B-playlist_owner B-playlist O O O
-B-artist O B-album B-music_item B-service O O
-O B-year O B-music_item O O
-B-country O B-timeRange O B-party_size_number O O O O O
-B-artist O B-playlist O O O
-O B-restaurant_name O O B-country O B-timeRange O O
-O B-genre O
-O B-city O B-state O B-restaurant_type O B-party_size_number O O O O
-B-year O B-sort B-music_item O
-B-object_select B-object_type O B-best_rating O O B-rating_value B-rating_unit O
-O B-entity_name O B-playlist O O O O O
-B-object_name O
-B-object_name O
-B-service O O B-playlist O O O B-music_item O
-O B-object_name O B-rating_value B-rating_unit O O
-B-city O B-party_size_number O O O O O O O O B-facility O B-restaurant_type O
-O B-city B-country O B-condition_temperature O
-B-city B-state O O B-sort B-restaurant_type O B-party_size_number O O O O O O O B-cuisine O O O
-O B-timeRange O B-party_size_number O O O O O
-B-service O B-album O
-O O O B-timeRange O B-spatial_relation B-party_size_number O O O O
-B-state O B-timeRange O O O
-O B-object_type O B-rating_value B-rating_unit O
-B-city O B-state O O O O O
-O B-playlist_owner B-playlist O O B-music_item O
-O B-object_name O O O O
-O B-object_type B-object_name O B-best_rating O O B-rating_value O O
-B-object_name B-object_type O
-B-object_name O O B-object_type O
-B-object_name O B-best_rating O O B-rating_value O O
-B-artist O O B-playlist O O O
-B-service O B-music_item B-album O
-O O O B-music_item B-playlist O O O O O
-B-object_select B-object_type O B-rating_value O B-best_rating O O
-O O B-music_item O O B-playlist O O O O O
-B-timeRange O B-city B-state O O O O
-B-entity_name O O B-playlist O O O
-O B-spatial_relation O B-movie_type O B-object_type O O
-B-service O B-artist O B-sort O
-B-timeRange O O B-geographic_poi O O O O
-O B-object_name O O O
-O O B-object_type O B-rating_value B-rating_unit O
-B-location_name O B-movie_name B-timeRange O O O O
-B-location_name O B-object_type O O
-B-location_name O B-object_type O
-O B-sort B-year B-music_item O B-artist O
-B-year O B-music_item O B-artist O O O
-B-object_type O O
-B-spatial_relation O O B-movie_type O B-object_type O
-O B-object_type O B-best_rating O O B-rating_value B-rating_unit O
-O B-object_type O O B-object_name O O
-B-entity_name O O B-playlist O O O
-B-city O B-country O B-timeRange B-condition_temperature O O
-B-artist O B-sort B-music_item B-service O O
-O B-artist O B-music_item O B-playlist O O O
-O O B-object_select O B-best_rating O O B-rating_value B-rating_unit O O
-B-spatial_relation O B-movie_type O O O O O
-B-object_name O
-O B-current_location O B-condition_temperature O B-timeRange O O
-O B-object_select O B-rating_value O O
-O B-music_item O O B-playlist O O O
-B-city O O O O
-B-city O O B-restaurant_type O B-party_size_number O O O O
-B-object_name O
-O B-spatial_relation O O B-movie_type O B-object_type O
-O B-city O B-served_dish O O O B-restaurant_type O B-party_size_number O O O O O O
-B-service O B-artist O O O
-O B-object_name O B-object_type O O O O
-B-artist O B-music_item O
-B-object_name O B-best_rating O O B-rating_value B-rating_unit O
-O B-geographic_poi O B-geographic_poi O
-B-artist O B-sort B-music_item O
-B-object_type B-object_name O
-B-playlist O O B-music_item O
-O B-music_item O B-artist O O O B-playlist O O O
-B-object_name O B-best_rating O O B-rating_value O O
-B-entity_name O O B-playlist O O O
-B-country O B-party_size_description O O B-restaurant_name O O O
-B-artist O O B-playlist O O O
-O B-artist O B-playlist O O O O O
-O B-city B-state O B-timeRange O B-condition_temperature O
-B-service O
-O B-music_item O O B-playlist O O O
-O B-music_item B-track O O O
-B-entity_name O O B-playlist O O O O
-B-year O O B-music_item O
-O B-object_type B-object_name O O O O
-O B-current_location O B-spatial_relation O O O
-B-restaurant_name O B-party_size_number O O O O O
-B-object_name O B-best_rating O O B-rating_value B-rating_unit O
-B-spatial_relation O B-movie_type O B-object_type O
-O B-playlist O O B-music_item O
-B-track O
-O B-timeRange B-city O O B-condition_description O O
-O B-city O O B-served_dish B-restaurant_type O O O O
-O B-object_location_type O B-movie_name O O O
-O B-object_select B-object_type B-rating_value O O
-B-album O
-B-state O B-party_size_number O O B-city O O O
-B-artist O B-music_item B-track O
-O O O B-music_item O B-playlist O O O O
-B-artist O B-music_item O
-O B-city O B-object_type O
-O B-city O B-timeRange O B-condition_description O
-O B-object_name O B-best_rating B-rating_unit O O B-rating_value B-rating_value O
-O B-object_type O
-B-location_name O B-object_type O
-B-year O O B-sort B-music_item O
-B-object_name O B-best_rating O O B-rating_value O O
-O B-artist B-music_item O B-playlist O O
-B-object_name O B-best_rating O O B-rating_value B-rating_unit O
-B-timeRange B-restaurant_name O B-party_size_number O O O O O
-O B-city B-state O B-condition_description O
-O B-object_name B-object_type O O O O
-B-object_name O O
-B-object_name O B-rating_value B-rating_unit O
-B-timeRange O B-city O B-condition_description O O
-O O B-music_item B-playlist O O O
-B-city O B-condition_description O O
-B-year B-music_item O O O O
-B-entity_name O O B-playlist O O O
-B-movie_name O O O O O
-B-playlist O O
-B-entity_name O B-playlist_owner O B-playlist O O O
-B-entity_name O O B-playlist_owner B-playlist O O O
-O B-object_select B-object_part_of_series_type O B-best_rating O O B-rating_value O O
-B-artist O B-track O
-B-object_type O B-object_type O
-O O B-object_select O B-object_part_of_series_type O B-best_rating O O B-rating_value B-rating_unit O O O
-B-city O B-restaurant_name O O B-timeRange O O O O
-B-restaurant_name O B-timeRange O B-country O O O
-B-artist O B-year O O B-music_item O
-O B-music_item B-playlist O O O
-O O B-object_name O O B-object_type O O O
-B-timeRange O B-state O B-condition_description O O
-B-entity_name O O B-playlist_owner O O O
-O O B-artist O B-music_item O B-playlist_owner O O O O O
-O B-timeRange B-city B-state O B-condition_temperature O
-B-spatial_relation B-object_location_type O O B-movie_type O O
-B-playlist B-music_item O O B-playlist_owner O O
-O B-location_name O B-object_type O
-B-location_name O B-movie_name O
-B-object_name O O B-rating_value B-rating_unit O
-B-service O B-service O
-B-country O B-timeRange O B-condition_temperature O O
-B-object_name O B-object_type O
-O B-object_type B-rating_value B-rating_unit O O O
-O B-object_name O B-rating_value O O O O O B-best_rating O
-B-object_name B-object_type O O O B-best_rating O O O B-rating_value B-rating_unit O O O
-O B-object_name B-object_type O
-O B-year O O B-music_item O
-B-city O B-state O B-condition_description O O
-O B-spatial_relation B-object_location_type O B-movie_name O O O
-B-entity_name O O B-playlist_owner O O O
-O B-artist O B-sort B-music_item O O
-O B-restaurant_name O B-party_size_number O O O O O B-state O
-B-object_name O O O B-object_type O
-B-service O
-B-object_name O B-best_rating O O B-rating_value O O
-B-object_name B-object_type O
-B-timeRange B-country O O B-restaurant_type O O B-party_size_number O O O
-B-object_name O B-best_rating O O B-rating_value B-rating_unit O
-B-artist O B-playlist_owner O B-playlist O O O O
-B-artist O B-track O
-B-year O O B-artist O O B-service O B-music_item O O O
-B-location_name O B-movie_name O O O O O
-O B-music_item O B-playlist O O O O
-B-city O B-country O B-condition_temperature O O
-B-artist O B-track O
-O B-restaurant_name O B-party_size_number O O O O O
-B-location_name O O O B-movie_type O O O
-B-artist O B-music_item B-playlist O O O
-O B-location_name O B-object_type O O O
-B-object_name O O O B-object_type O
-O B-object_select O B-rating_value O O
-B-spatial_relation O B-movie_type O O B-object_type O O O
-B-service O O B-playlist O O
-B-object_name O B-object_type O
-O B-music_item O O B-playlist_owner O O O
-B-object_name O O O O
-O B-spatial_relation O B-object_location_type O O B-movie_name O O O
-B-artist O B-year O O O
-B-timeRange O O B-restaurant_type O B-party_size_number O O O O O O O B-served_dish O O O
-B-timeRange B-party_size_number O O O O B-restaurant_type O O O O
-B-spatial_relation O B-movie_type O B-object_type O
-O O B-object_type O B-rating_value B-rating_unit O
-B-city O B-state O O B-restaurant_type O O O O O O
-B-artist O B-year O O B-music_item O
-O B-object_type O B-best_rating O O B-rating_value B-rating_unit O
-B-party_size_number O O O O B-cuisine B-restaurant_type O O
-O O B-spatial_relation O B-movie_type O O B-movie_type O O O
-B-object_name O
-B-country O O B-restaurant_name B-party_size_number O O O O
-O B-object_name O O B-object_type O O O O
-O B-city O B-condition_description O
-B-object_name B-object_type O
-B-object_name O B-object_type O O O O
-B-object_name O
-O O B-object_select O B-rating_value O O O
-O B-restaurant_type O B-party_size_number O O B-timeRange B-served_dish O O O
-O B-timeRange B-current_location O B-condition_description O
-O B-object_name O B-rating_value O O O O
-B-current_location O O O O
-O O O B-current_location O B-condition_temperature O
-B-country O B-sort B-restaurant_type O O O O
-O B-city O B-country O B-condition_temperature O
-O B-object_select O B-rating_value B-rating_unit O
-B-poi O B-spatial_relation O O B-cuisine B-restaurant_type O B-party_size_number O O O O O
-O O B-sort B-restaurant_type O O B-timeRange O B-party_size_number O O O O
-O B-city O B-country O B-timeRange B-condition_temperature O
-B-spatial_relation O B-movie_type O O B-timeRange O B-object_type O
-O B-music_item O B-playlist B-playlist_owner O O
-B-object_name O B-rating_value O B-best_rating B-rating_unit O O O
-O O B-timeRange O B-object_type O O O
-B-object_name B-object_type O
-O B-object_select O B-best_rating O O B-rating_value B-rating_unit O O O
-B-entity_name O O B-playlist_owner B-playlist O O
-B-object_select O B-rating_value O B-best_rating B-rating_unit O O O
-B-object_name O O B-object_type O
-B-artist O B-service B-sort O O
-O B-music_item O B-playlist O O O O
-O B-object_select O B-rating_value B-rating_unit O
-B-playlist_owner O O B-playlist O B-entity_name O O
-B-music_item O B-playlist O O O
-B-spatial_relation O O O B-movie_type O B-object_type O O
-B-current_location O B-timeRange O O O O
-O B-object_name O B-object_type O O O O
-B-object_name O
-B-timeRange O B-state O O O O
-B-object_name B-object_part_of_series_type O B-rating_value B-rating_unit O
-B-state O O B-party_size_number O O O B-restaurant_type O O
-O B-object_type B-object_name O O O
-B-music_item B-artist O O B-playlist_owner B-playlist O O
-B-service O B-playlist O
-B-timeRange O O B-restaurant_type O B-party_size_number O O O O O
-B-object_name O B-rating_value B-rating_unit O
-B-state O B-timeRange O O O O
-B-object_name O B-rating_value O O
-B-timeRange O B-current_location O O O
-O B-movie_name B-location_name O B-timeRange O O O O
-O B-restaurant_name O O B-state O B-party_size_number O O O O O
-O B-object_select B-rating_value B-rating_unit O O O O O O B-best_rating O
-O B-party_size_description O B-party_size_description B-restaurant_name O O O O O O
-B-restaurant_name O B-state O B-party_size_number O O O O O
-O B-artist O B-sort B-music_item B-service O O
-B-object_name B-object_type O
-B-city O B-state O O B-timeRange O O O O
-B-artist O O B-music_item O B-playlist O O O O
-B-artist O B-track O
-B-object_name O
-B-timeRange O B-party_size_description O B-restaurant_type O O O O O B-poi O B-spatial_relation O
-B-location_name O B-object_type O
-B-object_name O O O
-O B-restaurant_name O B-city O O B-timeRange O O O O O
-O B-object_type B-object_name O
-O O B-artist O B-sort B-music_item O O O
-O B-object_name B-object_type O O O O
-B-object_name O O O B-object_type O
-O O B-year O B-sort B-music_item O
-B-city O B-state O O B-restaurant_type O O B-served_dish O O
-O O O O B-playlist O O B-artist O O O
-B-city O B-country O O O O
-B-city O B-country O B-timeRange O O O O
-O O B-entity_name O O B-playlist O O O O O
-B-entity_name O B-playlist O O O O
-B-entity_name O B-playlist O O O O
-B-restaurant_name O B-state O B-spatial_relation O O O O
-O B-object_type O B-rating_value O O
-O B-music_item O O B-playlist O O O O
-B-city O B-state O O O O
-O O B-object_name O B-object_type O O O
-B-city O B-restaurant_name O O O
-B-spatial_relation O B-object_location_type B-movie_type O O O
-B-city O O O O
-B-country O B-city O O O O O O
-B-object_type B-object_name O
-B-artist O B-music_item B-track O
-O B-object_name B-object_type O O
-O B-country O O B-restaurant_type O B-party_size_number O O B-served_dish O O
-B-object_name O B-rating_value O B-best_rating B-rating_unit O
-B-timeRange O B-party_size_number O O O O B-restaurant_type O O
-O B-object_name B-object_type O O O O
-B-city O O B-restaurant_type O B-party_size_number O O O O O O
-B-service O O O B-music_item O
-O B-object_select B-object_type O B-rating_value O O B-best_rating O O
-B-entity_name O B-playlist O O O O
-B-artist B-music_item O
-O B-spatial_relation B-timeRange O O O O O
-O B-object_name B-object_type O O O
-B-genre O O B-music_item O
-O B-service O B-year O B-music_item O
-B-entity_name O B-playlist_owner O B-playlist O O O
-O B-object_select O B-best_rating O O B-rating_value O O O
-B-location_name O O B-object_type O O
-B-city O B-state O O B-restaurant_type O B-served_dish B-timeRange O O B-party_size_number O O
-B-artist O O B-music_item O
-O B-object_select O B-rating_value O O
-O B-party_size_description O B-party_size_description O O B-party_size_description O B-city O O B-restaurant_type O O
-O O B-object_name O O O O
-O O O B-current_location O O O O O
-O B-spatial_relation O B-object_location_type B-movie_name O O O
-O B-object_select B-object_type O B-rating_value O O B-best_rating B-rating_unit O
-B-object_name O B-rating_value O O
-B-playlist B-music_item O B-playlist_owner O B-playlist O O O
-B-object_name B-object_type O
-O B-artist O B-track O O
-B-party_size_description O B-party_size_description O O B-restaurant_name O O O B-state O O O
-B-entity_name O B-playlist O O O O
-B-location_name O B-object_type O O O O O
-O B-object_name B-object_part_of_series_type O B-rating_value B-rating_unit O O O
-B-service O B-artist O O B-sort B-music_item O
-B-service O B-playlist O
-B-rating_value O O B-object_part_of_series_type B-object_name O
-B-entity_name O B-playlist O O O
-B-artist O O B-music_item O
-B-timeRange O O O B-restaurant_type O B-party_size_number O O O O
-O B-geographic_poi O B-timeRange O O O O O
-O B-object_location_type O B-movie_name O O O
-O O O B-music_item O B-playlist O O O O O
-B-location_name O O B-object_type O O
-B-entity_name O B-playlist O O O O
-B-object_name O B-rating_value O O B-best_rating B-rating_unit O
-B-artist O B-year B-music_item B-service O O
-O B-timeRange O O B-sort O O B-restaurant_type O O O O O B-city O B-spatial_relation B-party_size_number O O O O O
-B-country O B-timeRange O O O O
-O B-music_item O O B-playlist_owner B-playlist O O O
-B-object_name O B-rating_value O O B-best_rating B-rating_unit O
-O O B-sort B-cuisine B-restaurant_type O B-city B-state O B-timeRange O O O O O
-B-object_name O B-object_type O
-B-entity_name O B-playlist O O O O
-B-party_size_description B-city O O B-restaurant_type O O O
-B-spatial_relation O O O O B-facility O B-restaurant_type O O O O
-B-artist O B-music_item O B-playlist O O O
-O B-party_size_number O O O B-served_dish O B-restaurant_type O O O O
-B-artist O B-playlist O O O
-B-object_name O O B-best_rating O O B-rating_value B-rating_unit O
-B-location_name O B-movie_name O O O O O
-O B-spatial_relation O B-object_location_type O B-movie_name O O O O O
-B-state O O B-condition_temperature O O O O
-O O B-artist O B-music_item B-playlist O O O
-O O O O B-movie_type O B-object_type O
-O B-music_item O B-playlist_owner B-playlist O O O
-O B-object_type O B-rating_value O O B-best_rating O O
-O O B-object_type O B-rating_value O O
-B-location_name O B-object_type O O
-B-object_name O O B-rating_value O O
-B-country O B-party_size_number O O O O B-restaurant_type O O
-B-artist O O B-playlist_owner B-playlist O O O
-B-service O B-artist O B-track O
-B-country O O O B-restaurant_type O O O B-served_dish O O B-party_size_number O O
-O B-city O B-timeRange B-condition_description O
-B-object_type B-object_name O O O
-B-music_item B-playlist O O O
-B-entity_name O B-playlist O O O
-O B-object_name O O O
-B-spatial_relation O B-restaurant_type B-party_size_number O O O O
-B-movie_name O O O
-B-service O B-year O O O
-B-spatial_relation O B-movie_type O B-object_type O
-B-movie_name O O O O O
-O B-timeRange O B-sort B-restaurant_type O O
-B-object_name B-object_type O
-O B-artist O B-sort O O O O
-B-artist O B-year O B-music_item O
-B-artist O B-music_item O O B-sort O O O O O O
-B-entity_name O O B-playlist_owner B-playlist O O O
-B-entity_name O B-playlist B-playlist O O O
-B-country O O O O O
-B-object_name O
-B-artist O B-year O B-music_item O
-O O B-music_item B-playlist O O O O O O
-B-artist O B-sort O O
-B-object_select B-object_type O B-rating_value B-rating_unit O O
-O B-city O B-condition_temperature
-B-object_name O B-rating_value O O
-O B-movie_name B-spatial_relation B-object_location_type O O O
-O B-timeRange O O B-spatial_relation B-poi B-restaurant_type O O O O
-O B-object_name B-object_type O
-B-object_name O B-rating_value B-best_rating O O O O
-B-artist O B-year O O B-service O O
-O B-object_name O B-object_type O O O O
-O O B-object_select O B-rating_value B-rating_unit O O O
-B-artist O B-playlist B-playlist O O O
-O O B-object_type O O
-B-playlist_owner B-playlist O O B-music_item O O
-B-artist O B-music_item B-playlist O O O O
-O B-movie_name B-object_location_type O O O
-B-artist O O B-music_item B-service O O
-B-restaurant_name O O O B-city O O O
-B-restaurant_name O O O O O O B-party_size_number O O B-timeRange O O O
-B-artist O B-playlist_owner B-playlist O O O
-B-location_name O B-object_type O O
-O B-service O B-genre O O O
-B-party_size_number O O O B-timeRange O B-timeRange O O O O
-O B-state O O B-facility B-restaurant_type O O O O O O B-party_size_number O O O O O O B-spatial_relation O O
-B-state O B-spatial_relation O O O
-B-object_type O B-best_rating O O B-rating_value B-rating_unit O
-O O O O O O O B-location_name O B-object_type B-timeRange O O
-B-state O B-timeRange B-party_size_number O O O O O
-O B-music_item O B-playlist_owner B-playlist O O O
-B-service O O O O B-genre O
-O O O O B-genre O O O
-B-service O B-artist O
-O B-spatial_relation O O O O O B-movie_type O B-object_type O
-O B-city O O B-restaurant_type O B-timeRange O O O O
-O B-music_item O B-playlist_owner O B-playlist O O O O
-B-city O B-timeRange O B-object_type O O
-B-entity_name O O B-playlist_owner B-playlist O O O
-B-movie_name O O O O O O O
-O B-music_item O O B-playlist_owner B-playlist O O O
-B-object_name O B-best_rating O O B-rating_value O O
-B-object_name O B-best_rating O O B-rating_value B-rating_unit O
-B-object_name O O O B-object_type O
-O B-object_name B-object_type O O O O
-B-object_type O O B-rating_value B-rating_unit O
-B-party_size_description O B-restaurant_type O O O O O B-spatial_relation O O O B-cuisine O O
-B-object_name B-object_type O
-B-playlist O O B-entity_name O
-O B-object_type O B-best_rating O O B-rating_value O O O
-O B-location_name O B-object_type O
-B-movie_name O O O O O O
-B-location_name O B-object_type O O
-O B-object_name O O O
-O B-object_select O B-rating_value B-rating_unit O
-B-object_name O O O B-object_type O
-B-artist O B-playlist O O O O
-O O B-movie_name O B-object_type O O O
-O O O O B-object_type O O O
-O B-geographic_poi O B-condition_description O
-B-city O B-condition_temperature O B-object_type O O
-B-object_name B-object_type O
-B-geographic_poi O O B-timeRange O O O
-B-artist O B-sort O O
-B-object_name O B-best_rating O O B-rating_value B-rating_unit O
-O B-spatial_relation O B-object_location_type B-movie_name O O O
-B-city O O B-sort B-restaurant_type O O O O
-O B-spatial_relation O B-object_location_type B-movie_name O O O
-O B-object_type O
-O B-object_part_of_series_type B-best_rating O O B-rating_value O O O
-B-city O B-state O B-party_size_number O O O O O O B-restaurant_name O B-party_size_number O O O
-O B-geographic_poi O B-spatial_relation B-timeRange B-condition_temperature O
-B-object_name O B-rating_value B-rating_unit O
-B-object_name O B-rating_value B-rating_unit O
-B-artist O O B-music_item B-playlist_owner B-playlist O O O O
-O B-object_name O B-rating_value O O O
-B-artist O B-music_item B-playlist_owner B-playlist O O O O
-O B-movie_name B-timeRange O O O O
-B-artist O B-track O
-O B-location_name O B-object_type B-timeRange O
-O B-city O B-condition_temperature O
-O B-state O B-timeRange O B-condition_temperature O
-O B-city O B-condition_temperature O
-O B-object_name B-object_type O O O
-B-artist O O B-track O
-B-movie_name O O B-location_name O O O O O
-B-artist O B-year O B-playlist O
-B-timeRange O B-city O O B-restaurant_type O O O O B-cuisine O O
-B-object_name B-object_part_of_series_type O B-best_rating O O B-rating_value O O
-O B-artist O B-playlist O O O O O
-B-restaurant_type O B-party_size_number O O B-timeRange O O O
-B-entity_name O B-playlist_owner B-playlist O O O O
-B-country O O B-restaurant_type O O O B-cuisine O O O
-B-spatial_relation B-object_location_type O O B-movie_name O O
-O B-object_type O B-best_rating O O B-rating_value B-rating_unit O
-B-artist O O B-music_item B-playlist_owner B-playlist O O O O
-B-spatial_relation B-object_location_type O B-movie_name O
-O B-city O B-condition_description O O O
-B-playlist O O B-music_item O O
-O B-timeRange O O O B-cuisine B-restaurant_type O O O O
-O B-spatial_relation O B-movie_type O B-object_type B-timeRange O O
-O O B-party_size_description O O B-city O O B-restaurant_type O O O
-B-geographic_poi O B-timeRange O O O
-O O B-object_name B-object_type O O O
-B-geographic_poi O B-timeRange O O O O O
-B-artist O B-year O O O O
-B-object_name O
-B-state O B-timeRange O B-condition_description O O O O O
-B-artist O O B-playlist O O O O
-O B-object_name O B-best_rating O O B-rating_value O O O
-O B-object_select O B-best_rating O O B-rating_value O O O
-B-object_name O B-object_type O
-B-artist O O B-sort B-music_item O
-B-service O B-artist O
-B-spatial_relation O O O B-movie_type O O
-O B-object_select B-object_type O B-best_rating O O B-rating_value B-rating_unit O
-B-object_name O
-B-city O B-party_size_number O O O O B-restaurant_type O O
-B-object_name O B-rating_value O O
-O O B-music_item O B-playlist_owner B-playlist O O O O O
-O B-object_name B-object_type O
-B-artist O B-sort B-music_item B-service O O
-B-location_name O B-object_type O
-B-object_name O B-object_type O
-O B-object_type O B-rating_value O O
-O B-timeRange B-spatial_relation B-condition_description O
-O O B-movie_name O B-object_location_type O O O O
-B-object_name O O O B-object_type O
-O B-country O B-sort B-restaurant_type O B-party_size_number O O
-O O O B-object_name B-object_type O O O
-O O B-object_select O B-best_rating O O B-rating_value O O
-O B-restaurant_name O O B-party_size_number O O O O
-B-object_name O
-O B-object_type B-object_name O O O
-O B-state O O B-restaurant_type B-timeRange O O O O
-O B-city O B-condition_description O O
-B-service O B-album B-music_item O
-O O B-object_type O O O
-B-entity_name O B-playlist O O O
-O O O O B-object_select O B-best_rating O O B-rating_value O O O
-O B-object_name O
-O B-spatial_relation O O B-timeRange O B-party_size_number O O O O O
-B-city O B-spatial_relation O B-party_size_number O O O B-restaurant_type O O O
-O B-object_name O O O
-O B-city O B-timeRange O B-object_type O O O
-B-artist O B-sort O O
-O B-restaurant_type O B-party_size_number O O O O O B-facility O
-B-service O B-artist O O B-music_item O
-B-entity_name O B-playlist O O O
-O O O B-object_name O O O
-O B-state O O B-restaurant_type O O O O O
-B-state O B-restaurant_name O O
-O B-object_type O B-rating_value O O
-B-year O B-music_item O
-O B-music_item O B-playlist_owner B-playlist O O O
-B-object_name O O B-object_type O
-O O B-object_name O O B-object_type O O O
-B-movie_name B-spatial_relation B-object_location_type O O O
-B-object_name O B-best_rating O O B-rating_value O O
-O B-object_name O B-best_rating O O O O O O O B-rating_value O
-B-party_size_number O O O B-cuisine O O B-restaurant_type O O O
-B-location_name O B-movie_type O O
-O B-object_name O B-object_type O O O
-B-object_type O B-object_name O
-B-object_name O B-rating_value B-rating_unit O
-B-playlist O O O B-music_item O
-B-service O B-artist O B-year O B-music_item O
-B-entity_name O B-playlist O O O
-B-movie_name O O O O
-O B-geographic_poi O B-condition_description O O O O B-spatial_relation O
-O O B-timeRange O B-object_type O O O
-O B-year O B-music_item O O
-B-artist O B-music_item O
-O B-object_name B-object_type O O
-B-timeRange O O B-city O B-state O O O
-B-artist O B-music_item B-service O O
-B-spatial_relation B-movie_type O B-object_type O O
-O B-current_location O O O O
-B-playlist O O O B-music_item O O
-O B-country O O B-restaurant_type O B-party_size_number O O O O O B-served_dish O O O
-B-location_name O B-movie_name B-timeRange O O O O O O
-B-restaurant_name O B-timeRange O O O O
-O B-movie_name O O O O O O
-B-object_name O B-rating_value O O
-O O O O B-object_name O B-rating_value O B-best_rating O B-rating_unit O O O
-O B-country O B-timeRange B-condition_temperature O
-B-timeRange O O B-country O B-party_size_number O O O O B-restaurant_type O
-O B-object_type O B-rating_value B-rating_unit O
-B-object_select B-object_type O O B-best_rating O O B-rating_value B-rating_unit O
-B-service O B-album O
-B-entity_name O B-playlist O O O
-B-state O B-timeRange O O O O
-B-timeRange O O B-party_size_number O O O O
-B-service O B-music_item O
-B-playlist O O O B-music_item O O
-B-spatial_relation B-object_location_type O B-movie_name O O O O
-B-spatial_relation B-movie_type O B-object_type O
-O B-playlist O O O B-music_item O O
-B-country O O O O
-O O B-object_name B-object_type O O O
-B-service O B-artist O B-year O O O
-B-restaurant_name B-state O B-party_size_number O O O O O O O
-B-country O B-city O B-timeRange O O O O
-O O O B-country O B-timeRange O O B-party_size_number O O O O O O O
-O O B-playlist O O B-entity_name O O
-B-object_name O B-best_rating O O B-rating_value B-rating_unit O O O
-O B-object_name B-object_type O O
-B-location_name O B-object_type O O O
-B-city O B-facility O O B-restaurant_type O O
-O B-movie_type O B-object_type O O
-O B-playlist O O O B-music_item O
-B-year O B-music_item O
-B-location_name O B-object_type O O
-O O B-object_select O B-rating_value O O B-best_rating B-rating_unit O O O
-O B-object_select O B-rating_value O O B-best_rating O O
-O O B-object_type O O
-B-timeRange O B-cuisine B-restaurant_type O O O O
-O B-playlist O B-artist O O O O
-B-restaurant_name O O B-state O B-spatial_relation O O O O B-party_size_number O O
-O B-country O B-condition_description O
-B-object_name O
-B-object_type O B-rating_value O O
-B-city O B-country O B-timeRange O O O O
-O O B-object_select O B-best_rating O O B-rating_value O O O O
-O B-year O O B-music_item O O O O
-O O B-party_size_description O B-party_size_description O O O B-restaurant_type O B-served_dish O O O
-B-object_name O B-rating_value O O
-O B-state O B-timeRange B-condition_temperature O
-O B-party_size_description O B-party_size_description O O O O O
-B-spatial_relation O B-movie_type O O O
-O B-object_select O B-best_rating O O B-rating_value B-rating_unit O
-O B-object_type O O B-object_name O O
-O O B-playlist_owner B-playlist O O O O B-music_item O
-B-artist O B-playlist O O O
-O B-music_item O B-playlist O O O
-O B-object_name O O O O
-B-playlist O O O O B-music_item O O
-B-artist O O B-year O O O
-O O B-sort B-year O B-music_item O
-B-object_name O B-rating_value O O B-best_rating O O
-B-city O O O O
-B-playlist O O O B-music_item O
-O B-state O B-condition_temperature O O
-B-city O B-state O O O O
-B-object_name O O B-object_type O
-O B-entity_name O B-playlist_owner B-playlist O O O O O O
-B-country O O B-sort B-restaurant_type O O
-B-city O B-state O O O B-timeRange O O
-O B-genre O O O
-O B-state O O O O
-B-object_name O O B-object_type O
-O B-object_name O O B-object_type O
-O B-location_name O B-object_type O
-B-service O B-artist O B-album O
-B-city O B-country O B-timeRange O O O O O
-B-object_type B-object_name O O O O
-B-artist O B-playlist O O
-O B-playlist_owner B-playlist O O O B-music_item O
-O O B-restaurant_type O O O B-country O B-spatial_relation O O
-B-cuisine O O B-sort B-restaurant_type O O
-B-music_item B-artist O B-playlist_owner B-playlist O O O
-B-object_name O B-rating_value O B-best_rating B-rating_unit O
-B-state O B-timeRange O B-condition_temperature O O
-O O O O B-object_select O O B-rating_value O O O O O B-best_rating O
-B-service O B-playlist O B-service O O
-O B-playlist_owner B-playlist O B-entity_name O O
-O B-playlist O O B-artist O O
-O B-state O B-condition_temperature O O
-O B-city O B-state O B-condition_temperature O
-B-object_name O B-object_type O
-B-movie_name O O O O O B-spatial_relation O B-object_location_type O
-B-state O O B-restaurant_type O B-party_size_number O O O O O
-B-object_name O
-B-location_name O B-object_type O O
-B-spatial_relation O B-movie_type O B-object_type O
-B-entity_name O B-playlist_owner B-playlist O O O
-O B-sort B-artist O O O
-B-object_select B-object_type O B-rating_value O O B-best_rating O
-B-service O B-music_item O
-O B-spatial_relation B-object_location_type O B-movie_type O
-O B-object_select O B-rating_value B-rating_unit O
-B-year O O B-genre B-music_item O
-B-artist O O O
-B-party_size_number O O O O B-restaurant_type O O B-served_dish O O O
-B-object_type O
-O B-current_location O O O O O
-B-artist O O B-music_item O
-B-country O B-timeRange O B-restaurant_type O O O O
-B-object_name B-object_type O
-B-artist O O B-sort B-music_item B-service O O
-B-object_name O O O O
-B-object_name O B-object_type O
-B-artist O B-music_item O
-B-object_name O B-rating_value O O B-best_rating B-rating_unit O
-B-location_name O B-movie_type O B-object_type O
-B-object_name O
-O B-object_select O B-rating_value O O B-best_rating O
-O O B-music_item B-playlist_owner O B-playlist O O O O O
-O B-restaurant_name B-state O B-party_size_number O O O O
-O B-object_name O B-object_type O O O
-B-object_name B-object_type O
-B-object_name O O O B-object_type O
-B-party_size_number O O O O O O O
-B-city O B-state O O O O
-B-entity_name O B-playlist_owner B-playlist O O O
-B-current_location B-timeRange O O O O
-B-object_name O
-O B-object_name B-object_type O
-O B-artist O B-music_item O O
-B-party_size_number O O O O O O O
-B-playlist B-service O O
-B-city O B-restaurant_name O O
-O O B-object_select O B-rating_value O O B-best_rating B-rating_unit O O
-O B-object_select B-rating_value O B-best_rating B-rating_unit O O O O O O O
-O B-object_name B-object_type O O B-rating_value B-rating_unit O O O
-B-city O O B-restaurant_type O O B-party_size_number O O O
-B-object_name B-object_type O
-O B-served_dish B-restaurant_type O O O O O
-O B-playlist O O B-music_item O O
-O B-service O B-artist O B-track O O O
-B-location_name O B-object_type O
-O B-object_part_of_series_type O B-rating_value O O
-B-album O O B-artist O
-B-restaurant_type O O O O O B-timeRange O
-B-object_name B-object_type O
-B-album O O B-artist O
-B-location_name O B-object_type O
-O B-object_type O O
-O B-country O B-party_size_number O O O B-timeRange O O O O
-B-artist O B-year O O B-service O O
-B-city O B-state O B-condition_description O O O O
-B-object_name B-object_part_of_series_type O B-rating_value B-rating_unit O
-O B-object_type O B-rating_value O O B-best_rating B-rating_unit O
-O B-artist O B-music_item O O O
-B-spatial_relation O O B-movie_type B-object_type O O
-B-state O B-timeRange O O B-party_size_number O B-restaurant_type O O
-B-artist O B-music_item O
-B-artist O O B-music_item B-playlist O O O O
-O B-city O B-timeRange O B-object_type O
-B-music_item O O B-artist O B-sort O
-O B-object_name O B-rating_value B-rating_unit O O O
-B-year O O O
-O O O O B-state O B-party_size_description O O B-restaurant_name O
-B-object_name O B-object_type O
-B-object_name O
-O B-music_item O B-playlist O O O O
-B-artist O B-year O O B-service O O
-B-spatial_relation O B-object_type O B-movie_type O
-B-object_name O B-rating_value O O
-O B-city O O B-facility B-restaurant_type O O O
-B-year O O O
-B-artist O B-music_item O B-playlist O O O
-B-playlist O O B-music_item O O
-B-artist O O O B-music_item O
-O B-object_name O B-object_type O O O O
-B-service O B-year O B-music_item O
-O B-object_select O B-rating_value O O B-best_rating B-rating_unit O
-B-object_name B-object_part_of_series_type O B-rating_value O O B-best_rating O
-B-entity_name O O B-playlist O O O O
-O B-geographic_poi O B-timeRange O B-condition_temperature O
-B-artist O B-playlist O O O
+B-MOVIE_NAME O O O O O O
+O B-PARTY_SIZE_DESCRIPTION O B-RESTAURANT_TYPE O O O O O B-SPATIAL_RELATION O
+B-OBJECT_NAME O
+B-SPATIAL_RELATION B-OBJECT_LOCATION_TYPE O O O B-MOVIE_TYPE O O O
+O B-RESTAURANT_TYPE O B-PARTY_SIZE_NUMBER O O O B-SORT O O O
+B-ARTIST O O B-YEAR O B-MUSIC_ITEM O
+B-OBJECT_TYPE B-OBJECT_NAME O B-BEST_RATING O O B-RATING_VALUE B-RATING_UNIT O
+B-OBJECT_NAME O B-RATING_VALUE B-RATING_UNIT O
+B-COUNTRY O O B-FACILITY O B-RESTAURANT_TYPE O B-PARTY_SIZE_NUMBER O O O O O O
+O B-STATE O O B-RESTAURANT_TYPE O B-PARTY_SIZE_NUMBER O O O O O O O B-SPATIAL_RELATION O O O B-SERVED_DISH O O
+B-ARTIST O O B-SORT O
+O B-MUSIC_ITEM O B-PLAYLIST O O O
+O B-MUSIC_ITEM O O B-PLAYLIST_OWNER B-PLAYLIST O O O
+O B-OBJECT_SELECT O B-RATING_VALUE B-RATING_UNIT O
+B-ARTIST O B-ALBUM O
+O B-TIMERANGE O B-COUNTRY O B-CONDITION_DESCRIPTION O
+O B-MUSIC_ITEM O B-PLAYLIST_OWNER O B-PLAYLIST O O O O
+O B-TIMERANGE B-CURRENT_LOCATION B-CONDITION_DESCRIPTION O O O
+B-OBJECT_NAME O B-OBJECT_TYPE O
+B-CURRENT_LOCATION B-CONDITION_DESCRIPTION O O
+B-OBJECT_NAME B-OBJECT_TYPE O O
+O B-OBJECT_TYPE B-OBJECT_NAME O B-RATING_VALUE B-RATING_UNIT O
+O B-PLAYLIST_OWNER B-PLAYLIST O O B-MUSIC_ITEM O O
+B-OBJECT_NAME O O O B-OBJECT_TYPE O
+B-OBJECT_TYPE O O
+B-OBJECT_NAME O B-BEST_RATING O O B-RATING_VALUE O O
+B-OBJECT_NAME B-OBJECT_TYPE O
+B-OBJECT_TYPE B-OBJECT_NAME O
+O B-OBJECT_NAME O B-RATING_VALUE O
+O B-PLAYLIST O O B-ARTIST O O
+B-STATE O O O O O O
+O B-TIMERANGE O B-STATE O O B-SPATIAL_RELATION B-CONDITION_TEMPERATURE O
+O O O O O B-COUNTRY O B-CITY O B-CONDITION_DESCRIPTION O
+B-ENTITY_NAME O O B-PLAYLIST_OWNER B-PLAYLIST O O
+O B-MOVIE_NAME O O B-OBJECT_LOCATION_TYPE O O
+O B-CITY O B-CONDITION_TEMPERATURE O
+O B-OBJECT_NAME O O O O
+O O B-ARTIST O O B-MUSIC_ITEM O B-PLAYLIST_OWNER B-PLAYLIST O O O O O
+O B-LOCATION_NAME O B-OBJECT_TYPE O
+B-SPATIAL_RELATION O B-OBJECT_LOCATION_TYPE O B-MOVIE_NAME O O O
+B-OBJECT_NAME O O
+O B-PLAYLIST_OWNER B-PLAYLIST O B-MUSIC_ITEM O O
+B-STATE O B-CITY O B-PARTY_SIZE_NUMBER O O O O O
+O B-PLAYLIST_OWNER B-PLAYLIST O B-ARTIST O O
+O B-CITY O B-OBJECT_TYPE O O
+O B-OBJECT_NAME O B-RATING_VALUE O O
+B-SERVICE O B-GENRE O
+B-OBJECT_NAME O B-RATING_VALUE O O
+O B-SORT B-RESTAURANT_TYPE O B-PARTY_SIZE_NUMBER O O B-OBJECT_TYPE O
+B-SPATIAL_RELATION O B-MOVIE_TYPE O B-OBJECT_TYPE O
+B-ARTIST O O B-SORT O O
+B-SERVICE O O O B-YEAR O B-ARTIST O O O
+O B-SERVICE O B-ARTIST O B-YEAR O B-MUSIC_ITEM O O O
+O B-OBJECT_NAME O O O B-OBJECT_TYPE O O O
+B-OBJECT_NAME O B-RATING_VALUE B-RATING_UNIT O
+B-LOCATION_NAME O O O B-MOVIE_TYPE B-MOVIE_TYPE O O O O
+O B-OBJECT_NAME B-OBJECT_TYPE O O O O O O O
+B-TIMERANGE O B-STATE O B-CONDITION_DESCRIPTION O O
+B-TIMERANGE O B-PARTY_SIZE_NUMBER O O B-FACILITY B-RESTAURANT_TYPE O O O O O
+O B-STATE O B-SERVED_DISH O O O B-RESTAURANT_TYPE O O O O
+O B-CITY B-STATE O B-TIMERANGE B-CONDITION_DESCRIPTION O O O
+O O B-MOVIE_NAME O B-OBJECT_LOCATION_TYPE O O O O
+O O B-PARTY_SIZE_DESCRIPTION O O O B-RESTAURANT_TYPE O B-CUISINE O O
+O B-OBJECT_LOCATION_TYPE B-MOVIE_NAME O B-TIMERANGE O O O
+B-SERVICE O B-ARTIST O B-TRACK O O
+O B-PLAYLIST_OWNER B-PLAYLIST O B-ENTITY_NAME O O
+B-OBJECT_SELECT O B-RATING_VALUE O O
+B-OBJECT_NAME O O O B-OBJECT_TYPE O
+O B-OBJECT_TYPE O B-RATING_VALUE B-RATING_UNIT O
+B-OBJECT_NAME O B-OBJECT_TYPE O
+B-GEOGRAPHIC_POI O O B-TIMERANGE O O O O
+B-PLAYLIST O O O B-ARTIST O O
+B-PLAYLIST O O B-ENTITY_NAME O O
+B-LOCATION_NAME O B-OBJECT_TYPE O
+O B-STATE O O B-SPATIAL_RELATION B-RESTAURANT_TYPE B-PARTY_SIZE_NUMBER O O O O O O
+B-MOVIE_NAME O O
+B-LOCATION_NAME O O O B-MOVIE_TYPE B-MOVIE_TYPE O O O O
+B-LOCATION_NAME O O O B-MOVIE_TYPE O O O
+O B-OBJECT_NAME B-OBJECT_TYPE O O O
+B-LOCATION_NAME O O B-MOVIE_TYPE O O O O O O
+O O B-ARTIST O B-SORT B-MUSIC_ITEM O O O
+B-OBJECT_NAME O B-RATING_VALUE B-RATING_UNIT O
+O B-SPATIAL_RELATION O B-MOVIE_TYPE O B-OBJECT_TYPE O
+O B-PLAYLIST_OWNER B-PLAYLIST O B-MUSIC_ITEM O O
+B-OBJECT_TYPE O B-OBJECT_TYPE O
+B-PARTY_SIZE_DESCRIPTION O O B-RESTAURANT_NAME B-COUNTRY O O O
+O B-CURRENT_LOCATION O B-CONDITION_DESCRIPTION O
+B-OBJECT_NAME O O O B-OBJECT_TYPE O
+B-OBJECT_PART_OF_SERIES_TYPE B-OBJECT_NAME O B-RATING_VALUE O O B-BEST_RATING B-RATING_UNIT O
+B-OBJECT_NAME O
+B-GEOGRAPHIC_POI O O B-TIMERANGE O O O
+B-ARTIST O B-MUSIC_ITEM O O
+O B-TIMERANGE O B-RESTAURANT_TYPE O O B-PARTY_SIZE_DESCRIPTION O O O O O
+B-OBJECT_NAME O B-RATING_VALUE O O O
+B-RESTAURANT_NAME O B-TIMERANGE O B-PARTY_SIZE_NUMBER O O O O O
+O B-OBJECT_NAME B-OBJECT_TYPE O
+B-OBJECT_NAME O O B-OBJECT_TYPE O
+B-COUNTRY O B-SERVED_DISH B-RESTAURANT_TYPE O B-PARTY_SIZE_DESCRIPTION O B-PARTY_SIZE_DESCRIPTION O O O O
+B-CITY B-STATE O O B-TIMERANGE O O O
+B-ARTIST O B-SORT O O
+B-ARTIST O O B-YEAR B-MUSIC_ITEM O
+O B-SPATIAL_RELATION O O O B-CUISINE B-RESTAURANT_TYPE O B-PARTY_SIZE_NUMBER O O O O
+O B-SPATIAL_RELATION O O B-MOVIE_TYPE B-TIMERANGE O O O O
+B-LOCATION_NAME O B-MOVIE_NAME O
+B-OBJECT_NAME O
+O B-OBJECT_NAME O
+O B-SPATIAL_RELATION O B-MOVIE_TYPE O B-OBJECT_LOCATION_TYPE O
+B-CITY B-STATE O O O O
+B-LOCATION_NAME O B-TIMERANGE O B-OBJECT_TYPE O
+B-OBJECT_NAME O B-BEST_RATING O O B-RATING_VALUE B-RATING_UNIT O
+B-OBJECT_NAME B-OBJECT_TYPE O O
+B-CITY O B-TIMERANGE O O O O
+B-CITY O B-SPATIAL_RELATION O O B-PARTY_SIZE_NUMBER O O O O
+B-LOCATION_NAME O B-OBJECT_TYPE O
+B-CITY O B-RESTAURANT_TYPE B-PARTY_SIZE_DESCRIPTION O O
+B-STATE O O B-SPATIAL_RELATION B-RESTAURANT_TYPE O B-PARTY_SIZE_DESCRIPTION O O O O O
+B-SPATIAL_RELATION B-MOVIE_TYPE O B-OBJECT_TYPE O
+B-CITY O O B-RESTAURANT_TYPE O B-SERVED_DISH O O O O O O
+B-ENTITY_NAME O O B-PLAYLIST_OWNER B-PLAYLIST O O O
+O B-OBJECT_SELECT B-RATING_VALUE B-RATING_UNIT O
+O B-ARTIST O B-YEAR O B-MUSIC_ITEM O O
+B-OBJECT_SELECT B-OBJECT_TYPE O B-BEST_RATING O O B-RATING_VALUE O O
+B-OBJECT_NAME O O O B-RATING_VALUE B-RATING_UNIT O O
+B-CITY O B-SERVED_DISH O O O O B-RESTAURANT_TYPE O O
+B-CITY B-STATE O O O O
+B-YEAR O O B-MUSIC_ITEM O
+O B-GENRE O
+O B-SPATIAL_RELATION O O B-MOVIE_TYPE O O B-OBJECT_TYPE O
+O B-SERVICE O B-MUSIC_ITEM O O
+O B-CURRENT_LOCATION B-TIMERANGE O B-CONDITION_TEMPERATURE O
+B-STATE O B-TIMERANGE O O O O
+O B-CITY O B-TIMERANGE O B-CONDITION_TEMPERATURE O
+B-OBJECT_NAME O O B-OBJECT_TYPE O
+B-OBJECT_NAME B-OBJECT_TYPE O
+B-PLAYLIST O B-PLAYLIST O O
+B-OBJECT_NAME O B-RATING_VALUE O O O
+B-SERVICE O B-MUSIC_ITEM O O B-YEAR O B-MUSIC_ITEM O
+B-OBJECT_NAME O B-OBJECT_TYPE O
+B-OBJECT_TYPE O O O O O O
+B-ARTIST O B-SERVICE O O
+O B-OBJECT_LOCATION_TYPE O O B-MOVIE_NAME O O O B-SPATIAL_RELATION B-TIMERANGE
+B-YEAR O O O B-ARTIST O O O
+B-OBJECT_NAME O B-BEST_RATING O O B-RATING_VALUE O O
+O B-OBJECT_SELECT B-OBJECT_TYPE O B-BEST_RATING O O B-RATING_VALUE B-RATING_UNIT O
+B-RESTAURANT_NAME O O O B-PARTY_SIZE_DESCRIPTION O O O O O O
+O B-MUSIC_ITEM B-ARTIST O B-PLAYLIST_OWNER O B-PLAYLIST O O O
+B-PLAYLIST O O B-MUSIC_ITEM O
+B-OBJECT_NAME O B-OBJECT_TYPE O
+B-OBJECT_NAME O B-RATING_VALUE B-RATING_UNIT O O O O
+O B-STATE O B-CITY O B-CONDITION_TEMPERATURE O
+B-OBJECT_TYPE O B-BEST_RATING O O B-RATING_VALUE B-RATING_UNIT O
+B-OBJECT_NAME O O B-OBJECT_TYPE O
+B-OBJECT_TYPE O B-BEST_RATING O O B-RATING_VALUE B-RATING_UNIT O
+O O B-OBJECT_SELECT O B-RATING_VALUE O O
+B-LOCATION_NAME O B-OBJECT_TYPE O
+B-OBJECT_NAME O O B-OBJECT_TYPE O B-RATING_VALUE B-RATING_UNIT O
+B-GEOGRAPHIC_POI O O O O
+O B-MUSIC_ITEM O B-PLAYLIST O O O
+B-OBJECT_NAME O B-RATING_VALUE B-RATING_UNIT O
+O B-OBJECT_TYPE O B-RATING_VALUE B-RATING_UNIT O
+B-LOCATION_NAME O B-OBJECT_TYPE O
+B-GEOGRAPHIC_POI O O O O O
+B-TIMERANGE B-CITY O O O O
+B-OBJECT_NAME O O B-OBJECT_TYPE O
+B-CITY O B-STATE O O O O O O B-TIMERANGE O O O
+B-OBJECT_NAME O B-OBJECT_TYPE O
+B-OBJECT_NAME B-OBJECT_TYPE O
+B-COUNTRY O B-SERVED_DISH O O O B-RESTAURANT_TYPE O O O O O
+B-OBJECT_NAME O B-RATING_VALUE B-RATING_UNIT O O O
+B-TIMERANGE O B-STATE O B-SPATIAL_RELATION O O O
+B-OBJECT_SELECT B-OBJECT_PART_OF_SERIES_TYPE O B-RATING_VALUE O
+O B-TIMERANGE B-STATE O B-CONDITION_TEMPERATURE O
+B-OBJECT_NAME B-OBJECT_TYPE O
+B-OBJECT_SELECT B-OBJECT_TYPE O B-BEST_RATING O O B-RATING_VALUE B-RATING_UNIT O
+B-PLAYLIST O O B-MUSIC_ITEM O
+O B-CITY O B-CONDITION_TEMPERATURE O
+B-SPATIAL_RELATION B-OBJECT_LOCATION_TYPE O B-MOVIE_TYPE O O O O O
+B-OBJECT_SELECT B-OBJECT_TYPE O B-RATING_VALUE B-RATING_UNIT O
+B-LOCATION_NAME O B-OBJECT_TYPE O O
+B-CURRENT_LOCATION O B-SPATIAL_RELATION B-CONDITION_TEMPERATURE O O O O
+B-ARTIST O O B-PLAYLIST_OWNER B-PLAYLIST O O O
+B-ENTITY_NAME O O B-PLAYLIST O O O
+O B-OBJECT_SELECT B-OBJECT_TYPE O B-RATING_VALUE B-RATING_UNIT O O O O O
+O O O B-SPATIAL_RELATION B-MOVIE_TYPE O B-OBJECT_TYPE O O O
+O B-GENRE O
+B-OBJECT_NAME O B-RATING_VALUE O O B-BEST_RATING B-RATING_UNIT O O O
+O O B-RESTAURANT_TYPE O O O B-SERVED_DISH O O O B-PARTY_SIZE_NUMBER O O O O
+B-LOCATION_NAME O B-OBJECT_TYPE O O
+B-ARTIST O B-YEAR B-MUSIC_ITEM O
+O O B-RESTAURANT_TYPE O B-SERVED_DISH O O O O O O B-TIMERANGE O
+B-ENTITY_NAME O B-PLAYLIST_OWNER B-PLAYLIST O O O
+B-OBJECT_NAME B-OBJECT_TYPE O
+B-SPATIAL_RELATION B-OBJECT_LOCATION_TYPE O B-TIMERANGE B-MOVIE_TYPE O O
+B-CITY O O B-RESTAURANT_TYPE O O
+B-OBJECT_SELECT B-OBJECT_TYPE O B-RATING_VALUE B-RATING_UNIT O
+O B-OBJECT_NAME B-OBJECT_TYPE O O
+B-LOCATION_NAME O O B-MOVIE_TYPE O O O
+O B-OBJECT_NAME O B-RATING_VALUE O O O
+B-OBJECT_NAME O
+O B-MOVIE_NAME B-TIMERANGE B-LOCATION_NAME O O O O
+B-CITY O B-COUNTRY O O O O
+B-MOVIE_NAME O
+B-OBJECT_SELECT B-OBJECT_TYPE O B-RATING_VALUE O O B-BEST_RATING B-RATING_UNIT O
+O B-OBJECT_NAME O B-OBJECT_TYPE O O O
+O B-MOVIE_NAME B-SPATIAL_RELATION B-OBJECT_LOCATION_TYPE O O O O
+B-SPATIAL_RELATION O B-OBJECT_LOCATION_TYPE O O B-MOVIE_NAME O O O
+B-ARTIST O B-MUSIC_ITEM B-SERVICE O O
+O B-MUSIC_ITEM O O B-PLAYLIST O O O
+B-MOVIE_TYPE B-SPATIAL_RELATION O
+O O B-ARTIST O B-YEAR O O O O O
+B-OBJECT_SELECT B-OBJECT_TYPE O B-RATING_VALUE B-RATING_UNIT O
+B-TIMERANGE O B-STATE O O O O
+B-GENRE O
+B-SERVICE O B-ARTIST O O O O
+O B-OBJECT_NAME B-OBJECT_TYPE O
+B-CITY O B-CONDITION_TEMPERATURE O
+O O B-OBJECT_NAME B-OBJECT_TYPE O O O
+B-MOVIE_NAME O O O O
+B-COUNTRY O B-RESTAURANT_NAME O O O O
+B-ENTITY_NAME O B-PLAYLIST_OWNER B-PLAYLIST O O O
+B-BEST_RATING O O B-OBJECT_NAME O B-RATING_VALUE O
+O B-ARTIST O O O O O
+O B-OBJECT_TYPE O B-RATING_VALUE O O B-BEST_RATING O O
+O B-ARTIST O B-MUSIC_ITEM O O
+B-CITY O O B-SORT B-CUISINE B-RESTAURANT_TYPE B-PARTY_SIZE_DESCRIPTION O O B-TIMERANGE O O O
+B-ENTITY_NAME O O B-PLAYLIST O O
+B-TIMERANGE O B-PARTY_SIZE_DESCRIPTION O O B-RESTAURANT_NAME O O O
+O B-MOVIE_NAME O B-OBJECT_TYPE B-LOCATION_NAME O O
+O B-RESTAURANT_NAME O B-STATE O O O O B-PARTY_SIZE_NUMBER O O
+B-OBJECT_NAME O B-BEST_RATING O O B-RATING_VALUE B-RATING_UNIT O
+B-OBJECT_NAME O B-OBJECT_TYPE O
+O B-OBJECT_NAME O B-RATING_VALUE B-RATING_UNIT O
+B-OBJECT_NAME O
+B-SERVICE O O B-ARTIST O B-ALBUM O
+B-OBJECT_NAME O B-OBJECT_TYPE O
+O B-ARTIST O B-YEAR O O B-SERVICE O O O O
+O O B-MOVIE_TYPE B-LOCATION_NAME O B-TIMERANGE O O O O
+B-LOCATION_NAME O O O O O O
+O B-STATE O O B-RESTAURANT_TYPE O B-PARTY_SIZE_NUMBER O O O O O O
+B-OBJECT_NAME B-OBJECT_TYPE O
+O B-OBJECT_NAME O O B-OBJECT_TYPE O O
+O B-OBJECT_NAME O O B-OBJECT_TYPE O
+O B-OBJECT_TYPE O O B-RATING_VALUE B-RATING_UNIT O O
+B-OBJECT_NAME O B-OBJECT_TYPE O
+B-SERVICE O B-ARTIST O O B-YEAR B-MUSIC_ITEM O
+O B-CITY O B-COUNTRY O B-CONDITION_DESCRIPTION O
+O B-OBJECT_TYPE O B-RATING_VALUE O O
+B-CURRENT_LOCATION O B-TIMERANGE O B-SPATIAL_RELATION O O O
+B-OBJECT_NAME O B-OBJECT_TYPE O
+B-SERVICE O B-ARTIST O O O
+O B-SPATIAL_RELATION O B-TIMERANGE O O O
+B-CITY B-STATE O O O O O O
+B-TIMERANGE O B-PARTY_SIZE_NUMBER O O O B-RESTAURANT_TYPE O O
+B-CITY O O O O O
+O B-OBJECT_SELECT O O O B-RATING_VALUE B-RATING_UNIT O
+B-ARTIST O O O
+B-ENTITY_NAME O O B-PLAYLIST_OWNER B-PLAYLIST O O O
+O B-MUSIC_ITEM O B-PLAYLIST O O O
+O B-OBJECT_NAME O O O
+B-SERVICE O B-ARTIST O B-YEAR O B-MUSIC_ITEM O
+B-POI O B-SPATIAL_RELATION O B-RESTAURANT_TYPE O B-PARTY_SIZE_DESCRIPTION O O O O
+O B-CITY O B-RESTAURANT_NAME O O O O
+B-SERVICE O B-ARTIST O O B-MUSIC_ITEM O
+O B-PLAYLIST O O B-ENTITY_NAME O
+O B-STATE O O B-RESTAURANT_TYPE O B-PARTY_SIZE_DESCRIPTION O O O O
+O B-CITY O B-TIMERANGE O B-CONDITION_TEMPERATURE O
+O B-COUNTRY O B-SPATIAL_RELATION B-TIMERANGE O B-CONDITION_DESCRIPTION O
+B-SERVICE O O B-GENRE O
+B-OBJECT_TYPE O O
+O B-OBJECT_TYPE B-OBJECT_NAME O O O O
+B-ARTIST O O B-PLAYLIST_OWNER B-PLAYLIST O O O
+B-ARTIST O B-ALBUM B-MUSIC_ITEM B-SERVICE O O
+O B-YEAR O B-MUSIC_ITEM O O
+B-COUNTRY O B-TIMERANGE O B-PARTY_SIZE_NUMBER O O O O O
+B-ARTIST O B-PLAYLIST O O O
+O B-RESTAURANT_NAME O O B-COUNTRY O B-TIMERANGE O O
+O B-GENRE O
+O B-CITY O B-STATE O B-RESTAURANT_TYPE O B-PARTY_SIZE_NUMBER O O O O
+B-YEAR O B-SORT B-MUSIC_ITEM O
+B-OBJECT_SELECT B-OBJECT_TYPE O B-BEST_RATING O O B-RATING_VALUE B-RATING_UNIT O
+O B-ENTITY_NAME O B-PLAYLIST O O O O O
+B-OBJECT_NAME O
+B-OBJECT_NAME O
+B-SERVICE O O B-PLAYLIST O O O B-MUSIC_ITEM O
+O B-OBJECT_NAME O B-RATING_VALUE B-RATING_UNIT O O
+B-CITY O B-PARTY_SIZE_NUMBER O O O O O O O O B-FACILITY O B-RESTAURANT_TYPE O
+O B-CITY B-COUNTRY O B-CONDITION_TEMPERATURE O
+B-CITY B-STATE O O B-SORT B-RESTAURANT_TYPE O B-PARTY_SIZE_NUMBER O O O O O O O B-CUISINE O O O
+O B-TIMERANGE O B-PARTY_SIZE_NUMBER O O O O O
+B-SERVICE O B-ALBUM O
+O O O B-TIMERANGE O B-SPATIAL_RELATION B-PARTY_SIZE_NUMBER O O O O
+B-STATE O B-TIMERANGE O O O
+O B-OBJECT_TYPE O B-RATING_VALUE B-RATING_UNIT O
+B-CITY O B-STATE O O O O O
+O B-PLAYLIST_OWNER B-PLAYLIST O O B-MUSIC_ITEM O
+O B-OBJECT_NAME O O O O
+O B-OBJECT_TYPE B-OBJECT_NAME O B-BEST_RATING O O B-RATING_VALUE O O
+B-OBJECT_NAME B-OBJECT_TYPE O
+B-OBJECT_NAME O O B-OBJECT_TYPE O
+B-OBJECT_NAME O B-BEST_RATING O O B-RATING_VALUE O O
+B-ARTIST O O B-PLAYLIST O O O
+B-SERVICE O B-MUSIC_ITEM B-ALBUM O
+O O O B-MUSIC_ITEM B-PLAYLIST O O O O O
+B-OBJECT_SELECT B-OBJECT_TYPE O B-RATING_VALUE O B-BEST_RATING O O
+O O B-MUSIC_ITEM O O B-PLAYLIST O O O O O
+B-TIMERANGE O B-CITY B-STATE O O O O
+B-ENTITY_NAME O O B-PLAYLIST O O O
+O B-SPATIAL_RELATION O B-MOVIE_TYPE O B-OBJECT_TYPE O O
+B-SERVICE O B-ARTIST O B-SORT O
+B-TIMERANGE O O B-GEOGRAPHIC_POI O O O O
+O B-OBJECT_NAME O O O
+O O B-OBJECT_TYPE O B-RATING_VALUE B-RATING_UNIT O
+B-LOCATION_NAME O B-MOVIE_NAME B-TIMERANGE O O O O
+B-LOCATION_NAME O B-OBJECT_TYPE O O
+B-LOCATION_NAME O B-OBJECT_TYPE O
+O B-SORT B-YEAR B-MUSIC_ITEM O B-ARTIST O
+B-YEAR O B-MUSIC_ITEM O B-ARTIST O O O
+B-OBJECT_TYPE O O
+B-SPATIAL_RELATION O O B-MOVIE_TYPE O B-OBJECT_TYPE O
+O B-OBJECT_TYPE O B-BEST_RATING O O B-RATING_VALUE B-RATING_UNIT O
+O B-OBJECT_TYPE O O B-OBJECT_NAME O O
+B-ENTITY_NAME O O B-PLAYLIST O O O
+B-CITY O B-COUNTRY O B-TIMERANGE B-CONDITION_TEMPERATURE O O
+B-ARTIST O B-SORT B-MUSIC_ITEM B-SERVICE O O
+O B-ARTIST O B-MUSIC_ITEM O B-PLAYLIST O O O
+O O B-OBJECT_SELECT O B-BEST_RATING O O B-RATING_VALUE B-RATING_UNIT O O
+B-SPATIAL_RELATION O B-MOVIE_TYPE O O O O O
+B-OBJECT_NAME O
+O B-CURRENT_LOCATION O B-CONDITION_TEMPERATURE O B-TIMERANGE O O
+O B-OBJECT_SELECT O B-RATING_VALUE O O
+O B-MUSIC_ITEM O O B-PLAYLIST O O O
+B-CITY O O O O
+B-CITY O O B-RESTAURANT_TYPE O B-PARTY_SIZE_NUMBER O O O O
+B-OBJECT_NAME O
+O B-SPATIAL_RELATION O O B-MOVIE_TYPE O B-OBJECT_TYPE O
+O B-CITY O B-SERVED_DISH O O O B-RESTAURANT_TYPE O B-PARTY_SIZE_NUMBER O O O O O O
+B-SERVICE O B-ARTIST O O O
+O B-OBJECT_NAME O B-OBJECT_TYPE O O O O
+B-ARTIST O B-MUSIC_ITEM O
+B-OBJECT_NAME O B-BEST_RATING O O B-RATING_VALUE B-RATING_UNIT O
+O B-GEOGRAPHIC_POI O B-GEOGRAPHIC_POI O
+B-ARTIST O B-SORT B-MUSIC_ITEM O
+B-OBJECT_TYPE B-OBJECT_NAME O
+B-PLAYLIST O O B-MUSIC_ITEM O
+O B-MUSIC_ITEM O B-ARTIST O O O B-PLAYLIST O O O
+B-OBJECT_NAME O B-BEST_RATING O O B-RATING_VALUE O O
+B-ENTITY_NAME O O B-PLAYLIST O O O
+B-COUNTRY O B-PARTY_SIZE_DESCRIPTION O O B-RESTAURANT_NAME O O O
+B-ARTIST O O B-PLAYLIST O O O
+O B-ARTIST O B-PLAYLIST O O O O O
+O B-CITY B-STATE O B-TIMERANGE O B-CONDITION_TEMPERATURE O
+B-SERVICE O
+O B-MUSIC_ITEM O O B-PLAYLIST O O O
+O B-MUSIC_ITEM B-TRACK O O O
+B-ENTITY_NAME O O B-PLAYLIST O O O O
+B-YEAR O O B-MUSIC_ITEM O
+O B-OBJECT_TYPE B-OBJECT_NAME O O O O
+O B-CURRENT_LOCATION O B-SPATIAL_RELATION O O O
+B-RESTAURANT_NAME O B-PARTY_SIZE_NUMBER O O O O O
+B-OBJECT_NAME O B-BEST_RATING O O B-RATING_VALUE B-RATING_UNIT O
+B-SPATIAL_RELATION O B-MOVIE_TYPE O B-OBJECT_TYPE O
+O B-PLAYLIST O O B-MUSIC_ITEM O
+B-TRACK O
+O B-TIMERANGE B-CITY O O B-CONDITION_DESCRIPTION O O
+O B-CITY O O B-SERVED_DISH B-RESTAURANT_TYPE O O O O
+O B-OBJECT_LOCATION_TYPE O B-MOVIE_NAME O O O
+O B-OBJECT_SELECT B-OBJECT_TYPE B-RATING_VALUE O O
+B-ALBUM O
+B-STATE O B-PARTY_SIZE_NUMBER O O B-CITY O O O
+B-ARTIST O B-MUSIC_ITEM B-TRACK O
+O O O B-MUSIC_ITEM O B-PLAYLIST O O O O
+B-ARTIST O B-MUSIC_ITEM O
+O B-CITY O B-OBJECT_TYPE O
+O B-CITY O B-TIMERANGE O B-CONDITION_DESCRIPTION O
+O B-OBJECT_NAME O B-BEST_RATING B-RATING_UNIT O O B-RATING_VALUE B-RATING_VALUE O
+O B-OBJECT_TYPE O
+B-LOCATION_NAME O B-OBJECT_TYPE O
+B-YEAR O O B-SORT B-MUSIC_ITEM O
+B-OBJECT_NAME O B-BEST_RATING O O B-RATING_VALUE O O
+O B-ARTIST B-MUSIC_ITEM O B-PLAYLIST O O
+B-OBJECT_NAME O B-BEST_RATING O O B-RATING_VALUE B-RATING_UNIT O
+B-TIMERANGE B-RESTAURANT_NAME O B-PARTY_SIZE_NUMBER O O O O O
+O B-CITY B-STATE O B-CONDITION_DESCRIPTION O
+O B-OBJECT_NAME B-OBJECT_TYPE O O O O
+B-OBJECT_NAME O O
+B-OBJECT_NAME O B-RATING_VALUE B-RATING_UNIT O
+B-TIMERANGE O B-CITY O B-CONDITION_DESCRIPTION O O
+O O B-MUSIC_ITEM B-PLAYLIST O O O
+B-CITY O B-CONDITION_DESCRIPTION O O
+B-YEAR B-MUSIC_ITEM O O O O
+B-ENTITY_NAME O O B-PLAYLIST O O O
+B-MOVIE_NAME O O O O O
+B-PLAYLIST O O
+B-ENTITY_NAME O B-PLAYLIST_OWNER O B-PLAYLIST O O O
+B-ENTITY_NAME O O B-PLAYLIST_OWNER B-PLAYLIST O O O
+O B-OBJECT_SELECT B-OBJECT_PART_OF_SERIES_TYPE O B-BEST_RATING O O B-RATING_VALUE O O
+B-ARTIST O B-TRACK O
+B-OBJECT_TYPE O B-OBJECT_TYPE O
+O O B-OBJECT_SELECT O B-OBJECT_PART_OF_SERIES_TYPE O B-BEST_RATING O O B-RATING_VALUE B-RATING_UNIT O O O
+B-CITY O B-RESTAURANT_NAME O O B-TIMERANGE O O O O
+B-RESTAURANT_NAME O B-TIMERANGE O B-COUNTRY O O O
+B-ARTIST O B-YEAR O O B-MUSIC_ITEM O
+O B-MUSIC_ITEM B-PLAYLIST O O O
+O O B-OBJECT_NAME O O B-OBJECT_TYPE O O O
+B-TIMERANGE O B-STATE O B-CONDITION_DESCRIPTION O O
+B-ENTITY_NAME O O B-PLAYLIST_OWNER O O O
+O O B-ARTIST O B-MUSIC_ITEM O B-PLAYLIST_OWNER O O O O O
+O B-TIMERANGE B-CITY B-STATE O B-CONDITION_TEMPERATURE O
+B-SPATIAL_RELATION B-OBJECT_LOCATION_TYPE O O B-MOVIE_TYPE O O
+B-PLAYLIST B-MUSIC_ITEM O O B-PLAYLIST_OWNER O O
+O B-LOCATION_NAME O B-OBJECT_TYPE O
+B-LOCATION_NAME O B-MOVIE_NAME O
+B-OBJECT_NAME O O B-RATING_VALUE B-RATING_UNIT O
+B-SERVICE O B-SERVICE O
+B-COUNTRY O B-TIMERANGE O B-CONDITION_TEMPERATURE O O
+B-OBJECT_NAME O B-OBJECT_TYPE O
+O B-OBJECT_TYPE B-RATING_VALUE B-RATING_UNIT O O O
+O B-OBJECT_NAME O B-RATING_VALUE O O O O O B-BEST_RATING O
+B-OBJECT_NAME B-OBJECT_TYPE O O O B-BEST_RATING O O O B-RATING_VALUE B-RATING_UNIT O O O
+O B-OBJECT_NAME B-OBJECT_TYPE O
+O B-YEAR O O B-MUSIC_ITEM O
+B-CITY O B-STATE O B-CONDITION_DESCRIPTION O O
+O B-SPATIAL_RELATION B-OBJECT_LOCATION_TYPE O B-MOVIE_NAME O O O
+B-ENTITY_NAME O O B-PLAYLIST_OWNER O O O
+O B-ARTIST O B-SORT B-MUSIC_ITEM O O
+O B-RESTAURANT_NAME O B-PARTY_SIZE_NUMBER O O O O O B-STATE O
+B-OBJECT_NAME O O O B-OBJECT_TYPE O
+B-SERVICE O
+B-OBJECT_NAME O B-BEST_RATING O O B-RATING_VALUE O O
+B-OBJECT_NAME B-OBJECT_TYPE O
+B-TIMERANGE B-COUNTRY O O B-RESTAURANT_TYPE O O B-PARTY_SIZE_NUMBER O O O
+B-OBJECT_NAME O B-BEST_RATING O O B-RATING_VALUE B-RATING_UNIT O
+B-ARTIST O B-PLAYLIST_OWNER O B-PLAYLIST O O O O
+B-ARTIST O B-TRACK O
+B-YEAR O O B-ARTIST O O B-SERVICE O B-MUSIC_ITEM O O O
+B-LOCATION_NAME O B-MOVIE_NAME O O O O O
+O B-MUSIC_ITEM O B-PLAYLIST O O O O
+B-CITY O B-COUNTRY O B-CONDITION_TEMPERATURE O O
+B-ARTIST O B-TRACK O
+O B-RESTAURANT_NAME O B-PARTY_SIZE_NUMBER O O O O O
+B-LOCATION_NAME O O O B-MOVIE_TYPE O O O
+B-ARTIST O B-MUSIC_ITEM B-PLAYLIST O O O
+O B-LOCATION_NAME O B-OBJECT_TYPE O O O
+B-OBJECT_NAME O O O B-OBJECT_TYPE O
+O B-OBJECT_SELECT O B-RATING_VALUE O O
+B-SPATIAL_RELATION O B-MOVIE_TYPE O O B-OBJECT_TYPE O O O
+B-SERVICE O O B-PLAYLIST O O
+B-OBJECT_NAME O B-OBJECT_TYPE O
+O B-MUSIC_ITEM O O B-PLAYLIST_OWNER O O O
+B-OBJECT_NAME O O O O
+O B-SPATIAL_RELATION O B-OBJECT_LOCATION_TYPE O O B-MOVIE_NAME O O O
+B-ARTIST O B-YEAR O O O
+B-TIMERANGE O O B-RESTAURANT_TYPE O B-PARTY_SIZE_NUMBER O O O O O O O B-SERVED_DISH O O O
+B-TIMERANGE B-PARTY_SIZE_NUMBER O O O O B-RESTAURANT_TYPE O O O O
+B-SPATIAL_RELATION O B-MOVIE_TYPE O B-OBJECT_TYPE O
+O O B-OBJECT_TYPE O B-RATING_VALUE B-RATING_UNIT O
+B-CITY O B-STATE O O B-RESTAURANT_TYPE O O O O O O
+B-ARTIST O B-YEAR O O B-MUSIC_ITEM O
+O B-OBJECT_TYPE O B-BEST_RATING O O B-RATING_VALUE B-RATING_UNIT O
+B-PARTY_SIZE_NUMBER O O O O B-CUISINE B-RESTAURANT_TYPE O O
+O O B-SPATIAL_RELATION O B-MOVIE_TYPE O O B-MOVIE_TYPE O O O
+B-OBJECT_NAME O
+B-COUNTRY O O B-RESTAURANT_NAME B-PARTY_SIZE_NUMBER O O O O
+O B-OBJECT_NAME O O B-OBJECT_TYPE O O O O
+O B-CITY O B-CONDITION_DESCRIPTION O
+B-OBJECT_NAME B-OBJECT_TYPE O
+B-OBJECT_NAME O B-OBJECT_TYPE O O O O
+B-OBJECT_NAME O
+O O B-OBJECT_SELECT O B-RATING_VALUE O O O
+O B-RESTAURANT_TYPE O B-PARTY_SIZE_NUMBER O O B-TIMERANGE B-SERVED_DISH O O O
+O B-TIMERANGE B-CURRENT_LOCATION O B-CONDITION_DESCRIPTION O
+O B-OBJECT_NAME O B-RATING_VALUE O O O O
+B-CURRENT_LOCATION O O O O
+O O O B-CURRENT_LOCATION O B-CONDITION_TEMPERATURE O
+B-COUNTRY O B-SORT B-RESTAURANT_TYPE O O O O
+O B-CITY O B-COUNTRY O B-CONDITION_TEMPERATURE O
+O B-OBJECT_SELECT O B-RATING_VALUE B-RATING_UNIT O
+B-POI O B-SPATIAL_RELATION O O B-CUISINE B-RESTAURANT_TYPE O B-PARTY_SIZE_NUMBER O O O O O
+O O B-SORT B-RESTAURANT_TYPE O O B-TIMERANGE O B-PARTY_SIZE_NUMBER O O O O
+O B-CITY O B-COUNTRY O B-TIMERANGE B-CONDITION_TEMPERATURE O
+B-SPATIAL_RELATION O B-MOVIE_TYPE O O B-TIMERANGE O B-OBJECT_TYPE O
+O B-MUSIC_ITEM O B-PLAYLIST B-PLAYLIST_OWNER O O
+B-OBJECT_NAME O B-RATING_VALUE O B-BEST_RATING B-RATING_UNIT O O O
+O O B-TIMERANGE O B-OBJECT_TYPE O O O
+B-OBJECT_NAME B-OBJECT_TYPE O
+O B-OBJECT_SELECT O B-BEST_RATING O O B-RATING_VALUE B-RATING_UNIT O O O
+B-ENTITY_NAME O O B-PLAYLIST_OWNER B-PLAYLIST O O
+B-OBJECT_SELECT O B-RATING_VALUE O B-BEST_RATING B-RATING_UNIT O O O
+B-OBJECT_NAME O O B-OBJECT_TYPE O
+B-ARTIST O B-SERVICE B-SORT O O
+O B-MUSIC_ITEM O B-PLAYLIST O O O O
+O B-OBJECT_SELECT O B-RATING_VALUE B-RATING_UNIT O
+B-PLAYLIST_OWNER O O B-PLAYLIST O B-ENTITY_NAME O O
+B-MUSIC_ITEM O B-PLAYLIST O O O
+B-SPATIAL_RELATION O O O B-MOVIE_TYPE O B-OBJECT_TYPE O O
+B-CURRENT_LOCATION O B-TIMERANGE O O O O
+O B-OBJECT_NAME O B-OBJECT_TYPE O O O O
+B-OBJECT_NAME O
+B-TIMERANGE O B-STATE O O O O
+B-OBJECT_NAME B-OBJECT_PART_OF_SERIES_TYPE O B-RATING_VALUE B-RATING_UNIT O
+B-STATE O O B-PARTY_SIZE_NUMBER O O O B-RESTAURANT_TYPE O O
+O B-OBJECT_TYPE B-OBJECT_NAME O O O
+B-MUSIC_ITEM B-ARTIST O O B-PLAYLIST_OWNER B-PLAYLIST O O
+B-SERVICE O B-PLAYLIST O
+B-TIMERANGE O O B-RESTAURANT_TYPE O B-PARTY_SIZE_NUMBER O O O O O
+B-OBJECT_NAME O B-RATING_VALUE B-RATING_UNIT O
+B-STATE O B-TIMERANGE O O O O
+B-OBJECT_NAME O B-RATING_VALUE O O
+B-TIMERANGE O B-CURRENT_LOCATION O O O
+O B-MOVIE_NAME B-LOCATION_NAME O B-TIMERANGE O O O O
+O B-RESTAURANT_NAME O O B-STATE O B-PARTY_SIZE_NUMBER O O O O O
+O B-OBJECT_SELECT B-RATING_VALUE B-RATING_UNIT O O O O O O B-BEST_RATING O
+O B-PARTY_SIZE_DESCRIPTION O B-PARTY_SIZE_DESCRIPTION B-RESTAURANT_NAME O O O O O O
+B-RESTAURANT_NAME O B-STATE O B-PARTY_SIZE_NUMBER O O O O O
+O B-ARTIST O B-SORT B-MUSIC_ITEM B-SERVICE O O
+B-OBJECT_NAME B-OBJECT_TYPE O
+B-CITY O B-STATE O O B-TIMERANGE O O O O
+B-ARTIST O O B-MUSIC_ITEM O B-PLAYLIST O O O O
+B-ARTIST O B-TRACK O
+B-OBJECT_NAME O
+B-TIMERANGE O B-PARTY_SIZE_DESCRIPTION O B-RESTAURANT_TYPE O O O O O B-POI O B-SPATIAL_RELATION O
+B-LOCATION_NAME O B-OBJECT_TYPE O
+B-OBJECT_NAME O O O
+O B-RESTAURANT_NAME O B-CITY O O B-TIMERANGE O O O O O
+O B-OBJECT_TYPE B-OBJECT_NAME O
+O O B-ARTIST O B-SORT B-MUSIC_ITEM O O O
+O B-OBJECT_NAME B-OBJECT_TYPE O O O O
+B-OBJECT_NAME O O O B-OBJECT_TYPE O
+O O B-YEAR O B-SORT B-MUSIC_ITEM O
+B-CITY O B-STATE O O B-RESTAURANT_TYPE O O B-SERVED_DISH O O
+O O O O B-PLAYLIST O O B-ARTIST O O O
+B-CITY O B-COUNTRY O O O O
+B-CITY O B-COUNTRY O B-TIMERANGE O O O O
+O O B-ENTITY_NAME O O B-PLAYLIST O O O O O
+B-ENTITY_NAME O B-PLAYLIST O O O O
+B-ENTITY_NAME O B-PLAYLIST O O O O
+B-RESTAURANT_NAME O B-STATE O B-SPATIAL_RELATION O O O O
+O B-OBJECT_TYPE O B-RATING_VALUE O O
+O B-MUSIC_ITEM O O B-PLAYLIST O O O O
+B-CITY O B-STATE O O O O
+O O B-OBJECT_NAME O B-OBJECT_TYPE O O O
+B-CITY O B-RESTAURANT_NAME O O O
+B-SPATIAL_RELATION O B-OBJECT_LOCATION_TYPE B-MOVIE_TYPE O O O
+B-CITY O O O O
+B-COUNTRY O B-CITY O O O O O O
+B-OBJECT_TYPE B-OBJECT_NAME O
+B-ARTIST O B-MUSIC_ITEM B-TRACK O
+O B-OBJECT_NAME B-OBJECT_TYPE O O
+O B-COUNTRY O O B-RESTAURANT_TYPE O B-PARTY_SIZE_NUMBER O O B-SERVED_DISH O O
+B-OBJECT_NAME O B-RATING_VALUE O B-BEST_RATING B-RATING_UNIT O
+B-TIMERANGE O B-PARTY_SIZE_NUMBER O O O O B-RESTAURANT_TYPE O O
+O B-OBJECT_NAME B-OBJECT_TYPE O O O O
+B-CITY O O B-RESTAURANT_TYPE O B-PARTY_SIZE_NUMBER O O O O O O
+B-SERVICE O O O B-MUSIC_ITEM O
+O B-OBJECT_SELECT B-OBJECT_TYPE O B-RATING_VALUE O O B-BEST_RATING O O
+B-ENTITY_NAME O B-PLAYLIST O O O O
+B-ARTIST B-MUSIC_ITEM O
+O B-SPATIAL_RELATION B-TIMERANGE O O O O O
+O B-OBJECT_NAME B-OBJECT_TYPE O O O
+B-GENRE O O B-MUSIC_ITEM O
+O B-SERVICE O B-YEAR O B-MUSIC_ITEM O
+B-ENTITY_NAME O B-PLAYLIST_OWNER O B-PLAYLIST O O O
+O B-OBJECT_SELECT O B-BEST_RATING O O B-RATING_VALUE O O O
+B-LOCATION_NAME O O B-OBJECT_TYPE O O
+B-CITY O B-STATE O O B-RESTAURANT_TYPE O B-SERVED_DISH B-TIMERANGE O O B-PARTY_SIZE_NUMBER O O
+B-ARTIST O O B-MUSIC_ITEM O
+O B-OBJECT_SELECT O B-RATING_VALUE O O
+O B-PARTY_SIZE_DESCRIPTION O B-PARTY_SIZE_DESCRIPTION O O B-PARTY_SIZE_DESCRIPTION O B-CITY O O B-RESTAURANT_TYPE O O
+O O B-OBJECT_NAME O O O O
+O O O B-CURRENT_LOCATION O O O O O
+O B-SPATIAL_RELATION O B-OBJECT_LOCATION_TYPE B-MOVIE_NAME O O O
+O B-OBJECT_SELECT B-OBJECT_TYPE O B-RATING_VALUE O O B-BEST_RATING B-RATING_UNIT O
+B-OBJECT_NAME O B-RATING_VALUE O O
+B-PLAYLIST B-MUSIC_ITEM O B-PLAYLIST_OWNER O B-PLAYLIST O O O
+B-OBJECT_NAME B-OBJECT_TYPE O
+O B-ARTIST O B-TRACK O O
+B-PARTY_SIZE_DESCRIPTION O B-PARTY_SIZE_DESCRIPTION O O B-RESTAURANT_NAME O O O B-STATE O O O
+B-ENTITY_NAME O B-PLAYLIST O O O O
+B-LOCATION_NAME O B-OBJECT_TYPE O O O O O
+O B-OBJECT_NAME B-OBJECT_PART_OF_SERIES_TYPE O B-RATING_VALUE B-RATING_UNIT O O O
+B-SERVICE O B-ARTIST O O B-SORT B-MUSIC_ITEM O
+B-SERVICE O B-PLAYLIST O
+B-RATING_VALUE O O B-OBJECT_PART_OF_SERIES_TYPE B-OBJECT_NAME O
+B-ENTITY_NAME O B-PLAYLIST O O O
+B-ARTIST O O B-MUSIC_ITEM O
+B-TIMERANGE O O O B-RESTAURANT_TYPE O B-PARTY_SIZE_NUMBER O O O O
+O B-GEOGRAPHIC_POI O B-TIMERANGE O O O O O
+O B-OBJECT_LOCATION_TYPE O B-MOVIE_NAME O O O
+O O O B-MUSIC_ITEM O B-PLAYLIST O O O O O
+B-LOCATION_NAME O O B-OBJECT_TYPE O O
+B-ENTITY_NAME O B-PLAYLIST O O O O
+B-OBJECT_NAME O B-RATING_VALUE O O B-BEST_RATING B-RATING_UNIT O
+B-ARTIST O B-YEAR B-MUSIC_ITEM B-SERVICE O O
+O B-TIMERANGE O O B-SORT O O B-RESTAURANT_TYPE O O O O O B-CITY O B-SPATIAL_RELATION B-PARTY_SIZE_NUMBER O O O O O
+B-COUNTRY O B-TIMERANGE O O O O
+O B-MUSIC_ITEM O O B-PLAYLIST_OWNER B-PLAYLIST O O O
+B-OBJECT_NAME O B-RATING_VALUE O O B-BEST_RATING B-RATING_UNIT O
+O O B-SORT B-CUISINE B-RESTAURANT_TYPE O B-CITY B-STATE O B-TIMERANGE O O O O O
+B-OBJECT_NAME O B-OBJECT_TYPE O
+B-ENTITY_NAME O B-PLAYLIST O O O O
+B-PARTY_SIZE_DESCRIPTION B-CITY O O B-RESTAURANT_TYPE O O O
+B-SPATIAL_RELATION O O O O B-FACILITY O B-RESTAURANT_TYPE O O O O
+B-ARTIST O B-MUSIC_ITEM O B-PLAYLIST O O O
+O B-PARTY_SIZE_NUMBER O O O B-SERVED_DISH O B-RESTAURANT_TYPE O O O O
+B-ARTIST O B-PLAYLIST O O O
+B-OBJECT_NAME O O B-BEST_RATING O O B-RATING_VALUE B-RATING_UNIT O
+B-LOCATION_NAME O B-MOVIE_NAME O O O O O
+O B-SPATIAL_RELATION O B-OBJECT_LOCATION_TYPE O B-MOVIE_NAME O O O O O
+B-STATE O O B-CONDITION_TEMPERATURE O O O O
+O O B-ARTIST O B-MUSIC_ITEM B-PLAYLIST O O O
+O O O O B-MOVIE_TYPE O B-OBJECT_TYPE O
+O B-MUSIC_ITEM O B-PLAYLIST_OWNER B-PLAYLIST O O O
+O B-OBJECT_TYPE O B-RATING_VALUE O O B-BEST_RATING O O
+O O B-OBJECT_TYPE O B-RATING_VALUE O O
+B-LOCATION_NAME O B-OBJECT_TYPE O O
+B-OBJECT_NAME O O B-RATING_VALUE O O
+B-COUNTRY O B-PARTY_SIZE_NUMBER O O O O B-RESTAURANT_TYPE O O
+B-ARTIST O O B-PLAYLIST_OWNER B-PLAYLIST O O O
+B-SERVICE O B-ARTIST O B-TRACK O
+B-COUNTRY O O O B-RESTAURANT_TYPE O O O B-SERVED_DISH O O B-PARTY_SIZE_NUMBER O O
+O B-CITY O B-TIMERANGE B-CONDITION_DESCRIPTION O
+B-OBJECT_TYPE B-OBJECT_NAME O O O
+B-MUSIC_ITEM B-PLAYLIST O O O
+B-ENTITY_NAME O B-PLAYLIST O O O
+O B-OBJECT_NAME O O O
+B-SPATIAL_RELATION O B-RESTAURANT_TYPE B-PARTY_SIZE_NUMBER O O O O
+B-MOVIE_NAME O O O
+B-SERVICE O B-YEAR O O O
+B-SPATIAL_RELATION O B-MOVIE_TYPE O B-OBJECT_TYPE O
+B-MOVIE_NAME O O O O O
+O B-TIMERANGE O B-SORT B-RESTAURANT_TYPE O O
+B-OBJECT_NAME B-OBJECT_TYPE O
+O B-ARTIST O B-SORT O O O O
+B-ARTIST O B-YEAR O B-MUSIC_ITEM O
+B-ARTIST O B-MUSIC_ITEM O O B-SORT O O O O O O
+B-ENTITY_NAME O O B-PLAYLIST_OWNER B-PLAYLIST O O O
+B-ENTITY_NAME O B-PLAYLIST B-PLAYLIST O O O
+B-COUNTRY O O O O O
+B-OBJECT_NAME O
+B-ARTIST O B-YEAR O B-MUSIC_ITEM O
+O O B-MUSIC_ITEM B-PLAYLIST O O O O O O
+B-ARTIST O B-SORT O O
+B-OBJECT_SELECT B-OBJECT_TYPE O B-RATING_VALUE B-RATING_UNIT O O
+O B-CITY O B-CONDITION_TEMPERATURE
+B-OBJECT_NAME O B-RATING_VALUE O O
+O B-MOVIE_NAME B-SPATIAL_RELATION B-OBJECT_LOCATION_TYPE O O O
+O B-TIMERANGE O O B-SPATIAL_RELATION B-POI B-RESTAURANT_TYPE O O O O
+O B-OBJECT_NAME B-OBJECT_TYPE O
+B-OBJECT_NAME O B-RATING_VALUE B-BEST_RATING O O O O
+B-ARTIST O B-YEAR O O B-SERVICE O O
+O B-OBJECT_NAME O B-OBJECT_TYPE O O O O
+O O B-OBJECT_SELECT O B-RATING_VALUE B-RATING_UNIT O O O
+B-ARTIST O B-PLAYLIST B-PLAYLIST O O O
+O O B-OBJECT_TYPE O O
+B-PLAYLIST_OWNER B-PLAYLIST O O B-MUSIC_ITEM O O
+B-ARTIST O B-MUSIC_ITEM B-PLAYLIST O O O O
+O B-MOVIE_NAME B-OBJECT_LOCATION_TYPE O O O
+B-ARTIST O O B-MUSIC_ITEM B-SERVICE O O
+B-RESTAURANT_NAME O O O B-CITY O O O
+B-RESTAURANT_NAME O O O O O O B-PARTY_SIZE_NUMBER O O B-TIMERANGE O O O
+B-ARTIST O B-PLAYLIST_OWNER B-PLAYLIST O O O
+B-LOCATION_NAME O B-OBJECT_TYPE O O
+O B-SERVICE O B-GENRE O O O
+B-PARTY_SIZE_NUMBER O O O B-TIMERANGE O B-TIMERANGE O O O O
+O B-STATE O O B-FACILITY B-RESTAURANT_TYPE O O O O O O B-PARTY_SIZE_NUMBER O O O O O O B-SPATIAL_RELATION O O
+B-STATE O B-SPATIAL_RELATION O O O
+B-OBJECT_TYPE O B-BEST_RATING O O B-RATING_VALUE B-RATING_UNIT O
+O O O O O O O B-LOCATION_NAME O B-OBJECT_TYPE B-TIMERANGE O O
+B-STATE O B-TIMERANGE B-PARTY_SIZE_NUMBER O O O O O
+O B-MUSIC_ITEM O B-PLAYLIST_OWNER B-PLAYLIST O O O
+B-SERVICE O O O O B-GENRE O
+O O O O B-GENRE O O O
+B-SERVICE O B-ARTIST O
+O B-SPATIAL_RELATION O O O O O B-MOVIE_TYPE O B-OBJECT_TYPE O
+O B-CITY O O B-RESTAURANT_TYPE O B-TIMERANGE O O O O
+O B-MUSIC_ITEM O B-PLAYLIST_OWNER O B-PLAYLIST O O O O
+B-CITY O B-TIMERANGE O B-OBJECT_TYPE O O
+B-ENTITY_NAME O O B-PLAYLIST_OWNER B-PLAYLIST O O O
+B-MOVIE_NAME O O O O O O O
+O B-MUSIC_ITEM O O B-PLAYLIST_OWNER B-PLAYLIST O O O
+B-OBJECT_NAME O B-BEST_RATING O O B-RATING_VALUE O O
+B-OBJECT_NAME O B-BEST_RATING O O B-RATING_VALUE B-RATING_UNIT O
+B-OBJECT_NAME O O O B-OBJECT_TYPE O
+O B-OBJECT_NAME B-OBJECT_TYPE O O O O
+B-OBJECT_TYPE O O B-RATING_VALUE B-RATING_UNIT O
+B-PARTY_SIZE_DESCRIPTION O B-RESTAURANT_TYPE O O O O O B-SPATIAL_RELATION O O O B-CUISINE O O
+B-OBJECT_NAME B-OBJECT_TYPE O
+B-PLAYLIST O O B-ENTITY_NAME O
+O B-OBJECT_TYPE O B-BEST_RATING O O B-RATING_VALUE O O O
+O B-LOCATION_NAME O B-OBJECT_TYPE O
+B-MOVIE_NAME O O O O O O
+B-LOCATION_NAME O B-OBJECT_TYPE O O
+O B-OBJECT_NAME O O O
+O B-OBJECT_SELECT O B-RATING_VALUE B-RATING_UNIT O
+B-OBJECT_NAME O O O B-OBJECT_TYPE O
+B-ARTIST O B-PLAYLIST O O O O
+O O B-MOVIE_NAME O B-OBJECT_TYPE O O O
+O O O O B-OBJECT_TYPE O O O
+O B-GEOGRAPHIC_POI O B-CONDITION_DESCRIPTION O
