@@ -1,0 +1,59 @@
+intent=RateBook;
+current=O novel=B-OBJECT_TYPE ko=O 6=B-BEST_RATING stars=B-RATING_UNIT me=O se=O 4=B-RATING_VALUE rate=O karo=O best=B-BEST_RATING ]=O
+
+intent=AddToPlaylist;
+meri=O playlist=B-OBJECT_TYPE me=O song_don_t_drink_the_water=B-TRACK add=O karo=O
+
+intent=AddToPlaylist;
+propuesta_alternativa_playlist=B-PLAYLIST me=O rod_argent=B-ARTIST ka=O ye=O tune=B-MUSIC_ITEM add=O karo=O
+
+intent=SearchScreeningEvent;
+movie=B-MOVIE_TYPE times=O dikhayo=O
+
+intent=GetWeather;
+kya=O amy=B-CITY me=O snow=B-CONDITION_DESCRIPTION hoga=O
+
+intent=GetWeather;
+kya=O hi=B-STATE me=O subah_9_baje=B-DATE_TIME mausam=O kaisa=O hoga=O
+
+intent=SearchCreativeWork;
+ek=O ghante=O me=O king_of_hearts=B-ENTITY_NAME dhoondo=O
+
+intent=BookRestaurant;
+selmer=B-CITY ke=O paas=O ek=O top-rated=B-SORT caucasian=B-CUISINE restaurant=B-RESTAURANT_TYPE me=O 10_logon=B-PARTY_SIZE_NUMBER ke=O liye=O booking=O karo=O
+
+intent=PlayMusic;
+1987=B-YEAR me=O clark_kent=B-ARTIST ka=O music=B-MUSIC bajao=O
+
+intent=AddToPlaylist;
+rock_games=B-PLAYLIST me=O add=O karo=O
+
+intent=AddToPlaylist;
+is=O artist=B-OBJECT_TYPE ko=O pop_2017_picks=B-PLAYLIST me=O add=O karo=O
+
+intent=RateBook;
+mai=O shadow_of_suribachi=B-OBJECT_NAME ko=O paanch=B-RATING_VALUE stars=B-RATING_UNIT deta=O hu=O
+
+intent=PlayMusic;
+kuch=O sixties=B-YEAR music=B-MUSIC bajao=O
+
+intent=SearchScreeningEvent;
+nearby=B-SPATIAL_RELATION kaunsa=O film=B-MOVIE_TYPE chal=O raha=O hai=O
+
+intent=AddToPlaylist;
+nothing_fancy=B-TRACK ko=O meditate_to_sounds_of_nature_playlist=B-PLAYLIST me=O add=O karo=O
+
+intent=SearchCreativeWork;
+chipmunk=B-ENTITY_NAME song=B-MUSIC_ITEM ka=O video_game=B-OBJECT_TYPE dhoondo=O
+
+intent=RateBook;
+lamy=B-OBJECT_NAME of=O santa=B-CITY fe=O ko=O 6=B-BEST_RATING me=O se=O 5=B-RATING_VALUE stars=B-RATING_UNIT do=O
+
+intent=SearchScreeningEvent;
+mujhe=O movie_schedules=B-OBJECT_TYPE dikhao=O
+
+intent=GetWeather;
+lago_vista=B-CITY me=O october_14,_2022=B-DATE_TIME ka=O weather=O kaisa=O hoga=O
+
+intent=GetWeather;
+agle_saal=B-DATE_TIME canada=B-COUNTRY me=O weather=O
