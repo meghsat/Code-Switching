@@ -1,0 +1,311 @@
+{
+    "B-ARTIST": [
+        "turk",
+        "Mickdeth",
+        "Tei_Movement",
+        "Lidell_Townsell",
+        "tiny_tim"
+    ],
+    "B-ALBUM": [
+        "Morning_Song",
+        "album_allergic",
+        "The_Way_It_Has_to_Be",
+        "Neutrons",
+        "Kurutta_Taiyō"
+    ],
+    "B-SERVICE": [
+        "iTunes",
+        "Netflix_par",
+        "itunes",
+        "Slacker_par",
+        "google_music"
+    ],
+    "B-PLAYLIST": [
+        "Autumn",
+        "Trotamundos",
+        "Pop_Punk_Powerhouses",
+        "All_Out_70s",
+        "your_favorite_slaughterhouse_list"
+    ],
+    "B-ENTITY_NAME": [
+        "Molly_aur_Tenbrooks",
+        "Shot_Forth_Self_Living",
+        "pangaea",
+        "Iemand_Als_Jij",
+        "Blood,_Guts_&_Glory"
+    ],
+    "B-OBJECT_SELECT": [
+        "Niche",
+        "upanyas",
+        "pustak",
+        "pichle",
+        "current_series"
+    ],
+    "B-OBJECT_TYPE": [
+        "creative_work",
+        "Local_movie",
+        "love",
+        "movie_halls",
+        "picture"
+    ],
+    "B-RATING_VALUE": [
+        "do_sitare",
+        "do",
+        "4",
+        "shunya",
+        "6_me_se_1"
+    ],
+    "B-BEST_RATING": [
+        "6_me_se",
+        "best",
+        "chhe",
+        "6",
+        "6_ratings"
+    ],
+    "B-TRACK": [
+        "Jag_Vill_Leva_I_Europa",
+        "Within_You_Without_You",
+        "Jingle_Bells",
+        "Adieu",
+        "asleep_in_the_deep"
+    ],
+    "B-PLAYLIST_OWNER": [
+        "Chill_Out",
+        "This_is_Rosana",
+        "wild_country",
+        "Crossroad_Blues",
+        "post"
+    ],
+    "B-YEAR": [
+        "beesve_dashak",
+        "2014",
+        "1920s",
+        "1991",
+        "2003_ka"
+    ],
+    "B-SORT": [
+        "sabse_behtareen",
+        "top-5",
+        "best_rated",
+        "sabse_achhe",
+        "top_paanch"
+    ],
+    "B-MUSIC_ITEM": [
+        "gaana",
+        "gaane",
+        "theme_tune",
+        "gana",
+        "song"
+    ],
+    "B-MOVIE_NAME": [
+        "The_Good_Girl",
+        "The_Nightmare",
+        "The_Ghost_Breakers",
+        "In_the_Name_of_the_Son",
+        "Tomorrow_at_Dawn"
+    ],
+    "B-STATE": [
+        "nc",
+        "PA",
+        "NY",
+        "ND",
+        "OH"
+    ],
+    "B-PARTY_SIZE_NUMBER": [
+        "saat_logo",
+        "7_logo",
+        "5_logon",
+        "eight_logon",
+        "10_logon"
+    ],
+    "B-CITY": [
+        "Vega_Alta",
+        "Hollidaysburg",
+        "Somis",
+        "Charenton",
+        "Parksdale"
+    ],
+    "B-DATE_TIME": [
+        "aaj",
+        "1_September",
+        "2_baje_subah",
+        "raat_12_baje",
+        "Chhe_saal_baad"
+    ],
+    "B-SPATIAL_RELATION": [
+        "pados_me",
+        "is_shetra_me",
+        "safe_distance",
+        "najdeeki",
+        "ID"
+    ],
+    "B-MOVIE_TYPE": [
+        "Kaun_si_filmein",
+        "animated",
+        "films",
+        "filmo",
+        "filmon"
+    ],
+    "B-GEOGRAPHIC_POI": [
+        "Cathedral_State_Park",
+        "Phinizy_Swamp_Nature_Park",
+        "kitlope_heritage_conservancy",
+        "Porcupine_Mountains",
+        "Flight_Park_State_Recreation_Area"
+    ],
+    "B-RESTAURANT_TYPE": [
+        "bistro",
+        "churrascaria",
+        "brasserie",
+        "chai_ki_jagah",
+        "Steakhouse"
+    ],
+    "B-PARTY_SIZE_DESCRIPTION": [
+        "Nannie_aur_mujhe",
+        "Maggie",
+        "Lucille_aur_Marina",
+        "mere_aur_meri_maa",
+        "Lacy"
+    ],
+    "B-OBJECT_LOCATION_TYPE": [
+        "sinema",
+        "cinema",
+        "movie_theater",
+        "theater",
+        "movie_theatre"
+    ],
+    "B-OBJECT_NAME": [
+        "supernatural:_the_unseen_powers_of_animals",
+        "The_Hindus:_An_Alternative_History",
+        "The_Last_Child",
+        "Peaches_Discography",
+        "Just_Once_in_My_Life"
+    ],
+    "B-RATING_UNIT": [
+        "sitaron",
+        "stars",
+        "rating",
+        "points",
+        "ek"
+    ],
+    "B-LOCATION_NAME": [
+        "AMC_Theatres",
+        "Goodrich_Quality_Theaters",
+        "caribbean_cinemas",
+        "imax_corporation",
+        "Caribbean_Cinemas"
+    ],
+    "B-CURRENT_LOCATION": [
+        "yaha",
+        "yahan",
+        "jagah",
+        "Yahan",
+        "meri_current_location"
+    ],
+    "B-SERVED_DISH": [
+        "Hog_Fry",
+        "maple_bacon_donut",
+        "gnocchi",
+        "burrito",
+        "olive"
+    ],
+    "B-COUNTRY": [
+        "Liechtenstein",
+        "Burkina",
+        "Mongolia",
+        "Greenland",
+        "Ukraine"
+    ],
+    "B-CONDITION_TEMPERATURE": [
+        "thandi_taapmaan",
+        "Kitni_thand",
+        "jyada_garmi",
+        "garmi_badhne_wali_hai",
+        "thand_badhne"
+    ],
+    "B-POI": [
+        "Fleetwood",
+        "Mitcham_ke_Municipal_Borough",
+        "tullytown",
+        "downtown",
+        "hamare_college"
+    ],
+    "B-CONDITION_DESCRIPTION": [
+        "fog_forecast",
+        "humidity",
+        "barf",
+        "badalon_ka_anuman",
+        "hawa_tez"
+    ],
+    "B-GENRE": [
+        "showtunes",
+        "pop-folk_music",
+        "retro",
+        "pop",
+        "bebop"
+    ],
+    "B-RESTAURANT_NAME": [
+        "The_Spotted_Pig",
+        "Black_Horse_Tavern",
+        "Ballylickey_House",
+        "Top_Pot_Doughnuts",
+        "Thomas_Hynes_House"
+    ],
+    "B-TIME_RANGE": [
+        "subah",
+        "dopehar_2_baje",
+        "Jan_28",
+        "333_din_baad",
+        "dopahar"
+    ],
+    "B-TIMERANGE": [
+        "may_9,_2037",
+        "March_3",
+        "10:21:20",
+        "ab",
+        "17_August,_2024"
+    ],
+    "B-CUISINE": [
+        "Swiss",
+        "South_Tyrolean",
+        "Veneto_cuisine",
+        "mediterranean",
+        "North_Indian"
+    ],
+    "B-OBJECT_PART_OF_SERIES_TYPE": [
+        "the_chronicle",
+        "hissa",
+        "book_saga",
+        "kronikal",
+        "current_saga"
+    ],
+    "B-FACILITY": [
+        "parking_ke_saath",
+        "spa",
+        "parking_wala",
+        "parking",
+        "WiFi"
+    ],
+    "B-ALBUM_NAME": [
+        "going_back_to_the_blue_ridge_mountains"
+    ],
+    "B-LOCATION": [
+        "goodrich_quality_theaters",
+        "Cairo_Zoo",
+        "ny",
+        "Brookdale,_Zimbabwe"
+    ],
+    "B-MUSIC_TYPE": [
+        "music"
+    ],
+    "B-MUSIC": [
+        "music"
+    ],
+    "B-WEATHER_ATTRIBUTE": [
+        "mausam_purvanuman"
+    ],
+    "B-WEATHER_FORECAST": [
+        "forecast",
+        "mausam_ka_forecast"
+    ]
+}
