@@ -1,0 +1,45 @@
+intent=ALARM_SET; 
+mujhe=O is_week=O subah=O paanch_baje=O utha=O do=O
+intent=ALARM_SET; 
+mujhe=O friday=O subah=O 9_baje=O utha=O dena=O
+intent=ALARM_SET; 
+ab_se_do_ghante_baad=O ka=O alarm=O set=O karo=O
+
+intent=AUDIO_VOLUME_MUTE; 
+shant=O ho=O jaao=O
+intent=AUDIO_VOLUME_MUTE; 
+Olly,=O zara=O shant=O ho=O jaao=O
+intent=AUDIO_VOLUME_MUTE; 
+bas=O karo=O
+intent=AUDIO_VOLUME_MUTE; 
+Olly,=O 10_seconds=O ke=O liye=O ruk=O jaao=O
+intent=AUDIO_VOLUME_MUTE; 
+10_second=O ke=O liye=O pause=O karo=O
+
+intent=IOT_HUE_LIGHTCHANGE; 
+humein=O sirf=O pink=O light=O chahiye=O
+intent=IOT_HUE_LIGHTCHANGE; 
+lighting=O ko=O thoda_aur=B- warm=O bana=O do=O yahaan=O
+intent=IOT_HUE_LIGHTCHANGE; 
+padhai=O ke=O liye=O suitable=O lighting=O set=O karo=O
+
+intent=IOT_HUE_LIGHTOFF; 
+lights=B-LIGHTS band=O kar=O do=O please=O
+
+intent=GENERAL_QUIRKY; 
+sone=O ka=O time=O ho=O gaya=O
+intent=GENERAL_QUIRKY; 
+Olly,=O sone=O ka=O time=O ho=O gaya=O
+intent=GENERAL_QUIRKY; 
+aur=O andhera=O chhaya=O hua=O hai=O
+
+intent=IOT_HUE_LIGHTOFF; 
+bathroom=O mein=O light=O band=O karo=O
+intent=IOT_HUE_LIGHTDIM; 
+Olly,=O hall=O mein=O lights=B-LIGHTS dim=O karo=O
+intent=IOT_HUE_LIGHTDIM; 
+hall=O mein=O lights=B-LIGHTS dim=O karo=O
+intent=IOT_HUE_LIGHTOFF; 
+bedroom=O mein=O lights=B-LIGHTS band=O kar=O do=O
+intent=IOT_HUE_LIGHTOFF; 
+Olly,=O bedroom=O mein=O lights=B-LIGHTS band=O kar=O do=O

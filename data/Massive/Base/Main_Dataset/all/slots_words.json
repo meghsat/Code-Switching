@@ -1,0 +1,278 @@
+{
+    "B-DATE": [
+        "aaj_chhah_march",
+        "1st_april",
+        "duniya",
+        "is_saal",
+        "tuesday"
+    ],
+    "B-TIME": [
+        "sunrise",
+        "dopahar_12_baje",
+        "6:30_baje",
+        "das_baje",
+        "subah_char_baje"
+    ],
+    "B-COLOR_TYPE": [
+        "neela",
+        "dull_blue",
+        "lal",
+        "watching_friendly",
+        "gulabi_rang"
+    ],
+    "B-HOUSE_PLACE": [
+        "poore_ghar",
+        "guest_room",
+        "bachchon_ke_bedroom",
+        "is_room",
+        "Kamre"
+    ],
+    "B-CHANGE_AMOUNT": [
+        "twenty",
+        "10",
+        "five_percent_tak",
+        "pachis_pratishat",
+        "poori"
+    ],
+    "B-ARTIST_NAME": [
+        "aaron_carter",
+        "dolly_parton",
+        "cat_stevens",
+        "blake_shelton",
+        "chopin"
+    ],
+    "B-MEDIA_TYPE": [
+        "u._s._a._today",
+        "source",
+        "bay_news_nine",
+        "vogue",
+        "u.s.a._today"
+    ],
+    "B-PLACE_NAME": [
+        "tokyo",
+        "time_zones",
+        "singapore",
+        "southeast_africa",
+        "columbus_ohio"
+    ],
+    "B-TIME_ZONE": [
+        "mountain",
+        "east_coast",
+        "din",
+        "pacific_time",
+        "IST"
+    ],
+    "B-FOOD_TYPE": [
+        "ham_and_cheese_sandwich",
+        "Byron",
+        "lomaine",
+        "rasgulla",
+        "cheeseburger"
+    ],
+    "B-ORDER_TYPE": [
+        "current_status",
+        "carry-out",
+        "take_out",
+        "delivered",
+        "takeaway"
+    ],
+    "B-NEWS_TOPIC": [
+        "hurricane_katrina",
+        "presidential_debates",
+        "narendra_modi",
+        "stories",
+        "obamacare"
+    ],
+    "B-SONG_NAME": [
+        "true_love",
+        "you_are_my_sunshine",
+        "\"nightmare\"",
+        "hula_hoop",
+        "play_that_funky_music"
+    ],
+    "B-MUSIC_GENRE": [
+        "disco",
+        "jazz",
+        "hip_hop",
+        "pianist",
+        "retro"
+    ],
+    "B-DEVICE_TYPE": [
+        "sabhi_lights",
+        "coffee_pot",
+        "vacuum_cleaner_robot",
+        "lamp",
+        "g._p._s."
+    ],
+    "B-MEAL_TYPE": [
+        "lunch",
+        "diner",
+        "ke",
+        "dinner"
+    ],
+    "B-TIMEOFDAY": [
+        "dopahar",
+        "aaj_subah",
+        "tonight",
+        "noon",
+        "dopehar"
+    ],
+    "B-BUSINESS_NAME": [
+        "google",
+        "china_king",
+        "michael's_pizza",
+        "louie's",
+        "mcdonalds"
+    ],
+    "B-GENERAL_FREQUENCY": [
+        "roz",
+        "har_din",
+        "saptahik",
+        "hourly",
+        "din"
+    ],
+    "B-WEATHER_DESCRIPTOR": [
+        "chalees_se_zyada",
+        "thandi",
+        "highest",
+        "sandals",
+        "snowplows_ke_dabane"
+    ],
+    "B-PLAYER_SETTING": [
+        "badlo",
+        "repeat_all",
+        "party_mode",
+        "hips_don't_lie",
+        "repeats"
+    ],
+    "B-JOKE_TYPE": [
+        "acche",
+        "dirty",
+        "dogs",
+        "cool",
+        "birds"
+    ],
+    "B-PLAYLIST_NAME": [
+        "themes",
+        "dogwalking_playlist",
+        "happy_playlist",
+        "dog_walking_playlist",
+        "playlist_one"
+    ],
+    "B-EVENT_NAME": [
+        "flight",
+        "birthday's",
+        "match",
+        "valentine's",
+        "halloween"
+    ],
+    "B-ALARM_TYPE": [
+        "soccer_practice",
+        "continuous_alarm",
+        "uthne",
+        "wake_up"
+    ],
+    "B-MUSIC_DESCRIPTOR": [
+        "dubstep",
+        "last_hit",
+        "up_beat",
+        "sabse_zyada_sune_gaye_top_five",
+        "Haal_hi_mein_jode_gaye"
+    ],
+    "B-PERSON": [
+        "angelina_jolie",
+        "narendra_modi",
+        "donald_trump",
+        "sam",
+        "finlee"
+    ],
+    "B-TIME_OF_DAY": [
+        "aaj_raat",
+        "is_shaam",
+        "morning",
+        "subah"
+    ],
+    "B-LIGHTS": [
+        "lights"
+    ],
+    "B-BUSINESS_TYPE": [
+        "coffee_shop",
+        "bar",
+        "restaurant",
+        "pizza_place",
+        "restaurants"
+    ],
+    "B-APP_NAME": [
+        "pandora",
+        "grubhub",
+        "spotify"
+    ],
+    "B-": [
+        "thoda_aur"
+    ],
+    "B-COFFEE_TYPE": [
+        "usual",
+        "garam",
+        "espresso",
+        "salted_carmel_flavored_cream",
+        "bina_cheeni_wala"
+    ],
+    "B-house_place": [
+        "ghar"
+    ],
+    "B-color_type": [
+        "red"
+    ],
+    "B-business_name": [
+        "mr._pizza"
+    ],
+    "B-order_type": [
+        "delivers"
+    ],
+    "B-date": [
+        "aaj_ki"
+    ],
+    "B-TIME_REFERENCE": [
+        "aajkal",
+        "abhi",
+        "current"
+    ],
+    "B-MUSIC_TYPE": [
+        "music"
+    ],
+    "B-ORDER_METHOD": [
+        "online"
+    ],
+    "B-PLAYLIST_TYPE": [
+        "last_used",
+        "last_wali"
+    ],
+    "B-POSSESSIVE": [
+        "meri"
+    ],
+    "B-DRINK_TYPE": [
+        "diet_coke",
+        "sprite"
+    ],
+    "B-RELATION": [
+        "bachchon",
+        "vakeelon",
+        "priest"
+    ],
+    "B-SON": [
+        "major_tom"
+    ],
+    "B-MUSIC_ALBUM": [
+        "theme_song",
+        "album"
+    ],
+    "B-INGREDIENT": [
+        "sausage"
+    ],
+    "B-MOVIE_NAME": [
+        "led_zeppelin_houses_of_the_holy"
+    ],
+    "B-TRANSPORT_TYPE": [
+        "car"
+    ]
+}
